@@ -1,0 +1,240 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxBackdrop;
+import flixel.FlxCamera;
+import flixel.group.FlxTypedGroup;
+
+import flixel.util.FlxSort;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.graphics.FunkinSprite;
+
+import funkin.util.SortUtil;
+
+import funkin.modding.module.Module;
+
+// MAIN MENU
+import funkin.ui.mainmenu.MainMenuState;
+import funkin.ui.AtlasMenuItem;
+
+// TITLE SCREEN
+import funkin.ui.title.TitleState;
+
+// OPTIONS MENU
+import funkin.ui.options.OptionsState;
+import funkin.ui.options.PreferencesMenu;
+
+class SummerBreakMainmenu extends Module
+{
+	var isInMain:Bool = false;
+	var azuBg:FlxBackdrop;
+	// i know this isnt a custom state shhhhhh
+	var coolXpos:Array<Int> = [38, 357, 614, 883];
+	var coolYpos:Array<Int> = [49, 197, 359, 510];
+	
+	public function new()
+	{
+		// Create a module with the ID 'custom-main-menu'
+		super('sbs-main-menu');
+	}
+
+	/**
+	 * Event called after changing to a new state.
+	 */
+	public function onStateChangeEnd(event:StateChangeScriptEvent)
+	{
+		if (Std.isOfType(event.targetState, MainMenuState))
+		{
+			// cameras???
+			/*
+			var camDefault:FlxCamera;
+			var camFront:FlxCamera;
+
+			camDefault = new FlxCamera();
+			camFront = new FlxCamera();
+			camFront.bgColor = 0x00000000;
+			
+			FlxG.cameras.add(camFront, false);
+			FlxG.cameras.setDefaultDrawTarget(camDefault, true);
+			*/
+			azuBg = new FlxBackdrop(Paths.image('mainmenu/menubg')); 
+			azuBg.updateHitbox(); 
+			azuBg.scrollFactor.set(0, 0); 
+			azuBg.alpha = 1;
+			// bg.screenCenter(X); 
+			
+			event.targetState.leftWatermarkText.y = 665;
+			event.targetState.leftWatermarkText.zIndex = 10;
+			
+			var modThing:FlxSprite = new FlxSprite(-29, 684).loadGraphic(Paths.image('mainmenu/about'));
+			modThing.scrollFactor.set(0, 0);
+			modThing.updateHitbox();
+		
+			event.targetState.menuItems.selectedIndex = 0;
+			// Then we can make sure the menu items are repositioned.
+
+			event.targetState.add(azuBg); 
+			event.targetState.add(modThing);
+					
+			// event.targetState.menuItems.cameras = [camFront]; 
+			// event.targetState.leftWatermarkText.cameras = [camFront];
+		
+			repositionMenuItems(event.targetState.menuItems);
+			tweenItems(event.targetState.menuItems, true, 1.6);
+			isInMain = true;
+
+			event.targetState.sort(SortUtil.byZIndex, FlxSort.ASCENDING);
+		}
+	}
+	
+	/**
+	 * Repositions the menu items.
+	 * Copy-pasted from the original menu.
+	 */
+	function repositionMenuItems(menuItems:AtlasMenuList)
+	{
+		menuItems.remove(menuItems.members[2], true);
+		
+		// shouldnt have been necessary but yknow. for Accuracy
+		// it's not gonna be that easy
+		// it WAS that easy
+		var memTwo = menuItems.members[2];
+		var memThree = menuItems.members[3];
+		
+		menuItems.members[2] = memThree;
+		menuItems.members[3] = memTwo;
+		
+		menuItems.zIndex = 10;
+		// Reset position of menu items.
+		for (i in 0...menuItems.length)
+		{
+			var menuItem = menuItems.members[i];
+			menuItem.x = coolXpos[i] + 180;
+			menuItem.y = coolYpos[i] + 60;
+			menuItem.alpha = 0;
+			
+			menuItem.scrollFactor.set(0, 0);
+		}
+	}
+	
+	function tweenItems(menuItems:AtlasMenuList, comeIn:Bool = true, duration:Float = 1.6)
+	{
+		menuItems.forEach(function(item) {
+				FlxTween.tween(item, {alpha: (comeIn ? 1 : 0)}, duration, {ease: FlxEase.quadOut});
+		});
+	}
+	
+	override function onUpdate(event) {
+		// shoutouts to azufunkin
+		if (azuBg != null) {
+			azuBg.x += 0.5 * (event.elapsed / (1 / 120));
+			azuBg.y -= -0.5 * (event.elapsed / (1 / 120));
+		}
+			
+		super.onUpdate(event);
+	}
+}
+
+
+class SummerBreakTitlescreen extends Module
+{
+	var pushEnter:FlxSprite;
+	var skipAlready:Bool = false;
+	var theState;
+	
+	public function new()
+	{
+		super('sbs-title-screen');
+	}
+
+	/**
+	 * Event called after changing to a new state.
+	 */
+	public function onStateChangeEnd(event:StateChangeScriptEvent)
+	{
+		theState = event.targetState;
+		
+		if (Std.isOfType(theState, TitleState))
+		{
+			if (theState.skippedIntro) 
+				doTheTitleThing(event.targetState);
+		}
+	}
+	
+	function doTheTitleThing(targetState:TitleState) {
+		// test
+		targetState.gfDance.x += 50;
+		targetState.gfDance.y += 50;
+			
+		targetState.logoBl.x = 30;
+		targetState.logoBl.y = 30;
+			
+		var bgThing:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('titleBG'));
+		bgThing.scrollFactor.set(0, 0);
+		bgThing.updateHitbox();
+			
+		pushEnter = new FlxSprite(486, 332).loadGraphic(Paths.image('pushEnter'));
+		pushEnter.scrollFactor.set(0, 0);
+		pushEnter.updateHitbox();
+			
+		targetState.add(bgThing);
+		targetState.add(pushEnter);
+		targetState.gfDance.zIndex = 50;
+		targetState.logoBl.zIndex = 51;
+			
+		targetState.sort(SortUtil.byZIndex, FlxSort.ASCENDING);
+	}
+	
+	override function onUpdate(event) {
+		if (Std.isOfType(theState, TitleState))
+		{
+			if (theState.skippedIntro && !skipAlready) {
+				doTheTitleThing(theState);
+				skipAlready = true;
+			}
+		}
+		
+		super.onUpdate(event);
+	}
+}
+
+class SummerBreakOptions extends Module
+{
+	var azuBgToo:FlxBackdrop;
+	
+	public function new()
+	{
+		super('sbs-options-menu');
+	}
+
+	public function onStateChangeEnd(event:StateChangeScriptEvent)
+	{
+		if (Std.isOfType(event.targetState, OptionsState))
+		{
+			azuBgToo = new FlxBackdrop(Paths.image('mainmenu/menubg')); 
+			azuBgToo.updateHitbox(); 
+			azuBgToo.scrollFactor.set(0, 0); 
+			azuBgToo.alpha = 1;
+			azuBgToo.zIndex = -1;
+			
+			event.targetState.add(azuBgToo);
+			
+			event.targetState.members[0].zIndex = -3;
+			
+			event.targetState.sort(SortUtil.byZIndex, FlxSort.ASCENDING);
+		}
+	}
+	
+	override function onUpdate(event) {
+		// shoutouts to azufunkin 2
+		if (azuBgToo != null) {
+			azuBgToo.x += 0.5 * (event.elapsed / (1 / 120));
+			azuBgToo.y -= -0.5 * (event.elapsed / (1 / 120));
+		}
+
+		super.onUpdate(event);
+	}
+}

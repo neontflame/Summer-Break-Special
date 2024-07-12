@@ -1,0 +1,46 @@
+import funkin.play.PlayState;
+import funkin.play.event.SongEvent;
+
+class Lookie extends SongEvent {
+	public override function handleEvent(data) {
+		if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+		
+    	lookie(data.value.playAnim, data.value.turnOn);
+	}
+	
+	function lookie(playAnim:Bool = true, turnOn:Bool = true) {
+		if (playAnim)
+			PlayState.instance.currentStage.getBoyfriend().playAnimation('look', true, true);
+		
+		if (turnOn) {
+			PlayState.instance.currentStage.getBoyfriend().scriptSet("lookie", true);
+			PlayState.instance.currentStage.getBoyfriend().idleSuffix = '-look';
+		} else {
+			PlayState.instance.currentStage.getBoyfriend().scriptSet("lookie", false);
+			PlayState.instance.currentStage.getBoyfriend().idleSuffix = '';
+		}
+	}
+	
+	public function getEventSchema() {
+	  return [{
+      name: 'playAnim',
+      title: 'Play Animation',
+      type: "bool",
+      defaultValue: true
+    },
+	{
+      name: 'turnOn',
+      title: 'Turn on',
+      type: "bool",
+      defaultValue: true
+    }];
+  }
+
+	public function getTitle() {
+		return "Set look towards GF";
+	}
+	
+	public function new() {
+		super('Lookie');
+	}
+}

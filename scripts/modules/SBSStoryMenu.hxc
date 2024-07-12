@@ -1,0 +1,26 @@
+import flixel.FlxG;
+
+import funkin.ui.story.StoryMenuState;
+import funkin.modding.base.ScriptedMusicBeatState;
+import funkin.modding.module.Module;
+
+class SBSMenuRedirector extends Module
+{
+	public function new()
+	{
+		super('sbs-menu-redirector');
+	}
+
+	/**
+	 * Event called after changing to a new state.
+	 */
+	public function onStateChangeEnd(event:StateChangeScriptEvent)
+	{
+		if (Std.isOfType(event.targetState, StoryMenuState))
+		{
+			// We are moving into the main menu.
+			trace("REDIRECTING MENU!!");
+			FlxG.switchState(ScriptedMusicBeatState.init('SummerBreakStorymenu'));
+		}
+	}
+}

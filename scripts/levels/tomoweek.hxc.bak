@@ -1,0 +1,23 @@
+import funkin.ui.story.Level;
+import funkin.save.Save;
+
+class TomoWeekLevel extends Level
+{
+	function new()
+	{
+		super('tomoweek');
+	}
+
+  override function isUnlocked():Bool {
+    return true;
+  }
+
+  function hasBeatenLevel():Bool {
+    return Save.instance.hasBeatenLevel('tomoweek');
+  }
+
+  override function getSongDisplayNames(difficultyId:String):Array<String> {
+	// placeholder for while i dont have the songs done. Hoo Wee
+      return ["Tomo", "Knucklehead", "Spunk"];
+  }
+}

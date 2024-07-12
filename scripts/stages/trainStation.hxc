@@ -1,0 +1,31 @@
+import flixel.FlxG;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+
+class TrainStationStage extends Stage
+{
+	function new()
+	{
+		super('trainStation');
+	}
+	
+	function onBeatHit(event:SongTimeScriptEvent)
+	{
+		super.onBeatHit(event);
+		
+		if (event.beat % 2 == 0)
+		{
+			if (FlxG.random.bool(5.84))
+				getNamedProp('oldGuy').animation.play('look');
+			else
+				if (getNamedProp('oldGuy').animation.finished)
+					getNamedProp('oldGuy').animation.play('idle');
+		}
+	}
+
+	function onSongRetry(event:ScriptEvent)
+	{
+		super.onSongRetry(event);
+		getNamedProp('oldGuy').animation.play('look');
+	}
+}

@@ -1,0 +1,180 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		10
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Tomo Takino (old sprite)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 6,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/tomo",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "tomo",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				10,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo hey",
+			"name": "hey",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				11,
+				12
+			],
+			"prefix": "tomo idle",
+			"looped": true,
+			"name": "idle-hold",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				40,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				40,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				5
+			],
+			"prefix": "tomo left",
+			"looped": true,
+			"name": "singLEFT-hold",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-34,
+				-47
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-49,
+				-47
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				5
+			],
+			"prefix": "tomo down",
+			"looped": true,
+			"name": "singDOWN-hold",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				26,
+				47
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				6,
+				47
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				5
+			],
+			"prefix": "tomo up",
+			"looped": true,
+			"name": "singUP-hold",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-59,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "tomo right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-54,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				5
+			],
+			"prefix": "tomo right",
+			"looped": true,
+			"name": "singRIGHT-hold",
+			"flipX": false
+		}
+	]
+}

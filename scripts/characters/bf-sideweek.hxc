@@ -1,0 +1,56 @@
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import funkin.Paths;
+import flixel.FlxG;
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.GameOverSubState;
+
+class BoyfriendSideweekCharacter extends MultiSparrowCharacter {
+	var lookie:Bool = false;
+	
+	function new() {
+		lookie = false;
+		super('bf-sideweek');
+	}
+	
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (event.note.noteData.getMustHitNote() && characterType == CharacterType.BF) {
+			// Override the hit note animation.
+			if (lookie) {
+				holdTimer = 0;
+				this.playSingAnimation(event.note.noteData.getDirection(), false, 'look');
+				return;
+			}
+		}
+		
+		super.onNoteHit(event);
+	}
+	
+	override function playAnimation(name:String, restart:Bool, ignoreOther:Bool) {
+		if (name == "fakeoutDeath") {
+			trace('Doing fakeout death lel');
+			doFakeoutDeath();
+		} else {
+			super.playAnimation(name, restart, ignoreOther);
+		}
+	}
+
+	function doFakeoutDeath():Void {
+		FunkinSound.playOnce(Paths.sound("gameplay/gameover/fakeout_death"), 1.0);
+
+		var bfFakeout:FlxAtlasSprite = new FlxAtlasSprite(this.x - 440, this.y - 240, Paths.animateAtlas("characters/bfFakeOut", "shared"));
+    FlxG.state.subState.add(bfFakeout);
+		bfFakeout.zIndex = 1000;
+    bfFakeout.playAnimation('');
+    bfFakeout.anim.onComplete = () -> {
+      bfFakeout.visible = false;
+      this.visible = true;
+      this.playAnimation('firstDeath', true, true);
+      // Play the "blue balled" sound. May play a variant if one has been assigned.
+      GameOverSubState.playBlueBalledSFX();
+    };
+    bfFakeout.visible = true;
+		this.visible = false;
+	}
+}

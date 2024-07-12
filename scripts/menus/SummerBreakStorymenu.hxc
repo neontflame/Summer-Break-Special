@@ -1,0 +1,302 @@
+import flixel.FlxG;
+import flixel.FlxObject;
+import flixel.FlxSprite;
+
+import flixel.effects.FlxFlicker;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import lime.utils.Assets;
+import flixel.text.FlxText;
+import funkin.util.MathUtil;
+
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.group.FlxTypedGroup;
+
+import funkin.modding.base.ScriptedMusicBeatState;
+import funkin.ui.MusicBeatState;
+import funkin.Paths;
+import funkin.audio.FunkinSound;
+
+import funkin.ui.mainmenu.MainMenuState;
+import funkin.ui.story.Level;
+import funkin.ui.story.LevelTitle;
+import funkin.data.story.level.LevelRegistry;
+import funkin.save.Save;
+
+import funkin.play.PlayStatePlaylist;
+import funkin.play.song.Song;
+import funkin.data.song.SongRegistry;
+import funkin.ui.transition.LoadingState;
+
+import funkin.Highscore;
+
+class SummerBreakStorymenu extends MusicBeatState
+{
+	// most of the Actual Logic in here is heavily referenced or outright aped off of the basegame's StoryMenuState.hx so. yeah
+	// everything else by neontflame though so if using this state then give credit!!! or not idk im not your dad
+	var currentLevelId:Int = 0;
+	var currentLevel:Level;
+	var isLevelUnlocked:Bool;
+	
+	var bg:FlxSprite;
+	var pins:FlxSprite;
+	var star:FlxSprite;
+	
+	var levelList:Array<String> = ['tomoweek', 'trickortreat'];
+	
+	var xPosCool:Array<Int> = [57, 350, 157];
+	var yPosCool:Array<Int> = [60, 291, 583];
+	
+	var levelTitles:FlxTypedGroup<LevelTitle>;
+	var levelName:FlxText;
+	var levelTracks:FlxText;
+	var levelScore:FlxText;
+	var currentLevelTitle:LevelTitle;
+	
+	var exitingMenu:Bool = false;
+	var selectedLevel:Bool = false;
+	
+	var highScore:Int = 42069420;
+	var highScoreLerp:Int = 12345678;
+
+	public function new(?stickers:StickerSubState = null)
+	{
+		super();
+
+		if (stickers != null)
+		{
+			stickerSubState = stickers;
+		}
+	}
+	
+	// state funcs
+	override function create()
+	{
+		if (!FlxG.sound.music.playing)
+		{	
+			FlxG.sound.playMusic(Paths.music(TitleScreen.titleMusic), 1);
+		}
+
+		persistentUpdate = persistentDraw = true;
+
+		// bg pins shit
+		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/pinBG')); 
+		bg.updateHitbox(); 
+		bg.scrollFactor.set(1, 1); 
+		bg.alpha = 1;
+		
+		pins = new FlxSprite(43, 14).loadGraphic(Paths.image('storymenu/pins')); 
+		pins.updateHitbox(); 
+		pins.scrollFactor.set(1, 1);
+		
+		star = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/star')); 
+		star.updateHitbox(); 
+		star.scrollFactor.set(1, 1); 
+		
+		add(bg); 
+		add(pins); 
+		add(star); 
+		
+		// the other part
+		var black = new FlxSprite(772, 0).makeGraphic(507, 785, 0x8F000000);
+		black.updateHitbox();
+		black.scrollFactor.set(0, 0); 
+		
+		levelName = new FlxText(789, 14, 471, 'LEVEL TITLE LUL', 32);
+		levelName.setFormat(Paths.font('vcr.ttf'), 32, 0xFFFFB789, 'right');
+		levelName.scrollFactor.set(0, 0);
+		
+		levelTracks = new FlxText(789, 647, 471, 'Track - List - Lmfao', 24);
+		levelTracks.setFormat(Paths.font('vcr.ttf'), 24, 0xFFFFFFFF, 'right');
+		levelTracks.scrollFactor.set(0, 0);
+		
+		levelScore = new FlxText(789, 674, 471, 'LEVEL SCORE: PLENTY', 32);
+		levelScore.setFormat(Paths.font('vcr.ttf'), 32, 0xFFFFB789, 'right');
+		levelScore.scrollFactor.set(0, 0);
+
+		levelTitles = new FlxTypedGroup();
+
+		add(black); // black overlay
+		add(levelTitles); // week titles
+		add(levelName); // week names
+		add(levelTracks); // week tracklist
+		add(levelScore); // week score
+		
+		createLevelTitles();
+		changeLevel(1);
+		
+		whiteFade = new FlxSprite(0, 0).makeGraphic(1280, 720, 0x8FFFFFFF);
+		whiteFade.updateHitbox();
+		whiteFade.scrollFactor.set(0, 0); 
+		whiteFade.alpha = 0;
+		
+		add(whiteFade);
+		
+		super.create();
+	}
+	
+	override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+		
+		star.x = MathUtil.coolLerp(star.x, xPosCool[levelList.indexOf(currentLevelId)], 0.3);
+		star.y = MathUtil.coolLerp(star.y, yPosCool[levelList.indexOf(currentLevelId)], 0.3);
+		
+		FlxG.camera.scroll.y = MathUtil.coolLerp(FlxG.camera.scroll.y, 85 * levelList.indexOf(currentLevelId), 0.05);
+		
+		highScoreLerp = Std.int(MathUtil.smoothLerp(highScoreLerp, highScore, elapsed, 0.5));
+		levelScore.text = 'LEVEL SCORE: ' + Math.round(highScoreLerp);
+		levelName.text = currentLevel.getTitle();
+	
+		keyShits();
+	}
+	
+	// creator funcs 
+	function createLevelTitles() {
+		for (levelIndex in 0...levelList.length)
+		{
+			var level:Level = LevelRegistry.instance.fetchEntry(levelList[levelIndex]);
+			if (level == null || !level.isVisible()) continue;
+
+			var lvTitle:LevelTitle = new LevelTitle(845, 100, level);
+			lvTitle.x = 1025 - (lvTitle.width / 2);
+			lvTitle.targetY = ((lvTitle.height + 5) * levelIndex);
+			lvTitle.scrollFactor.set(0, 0);
+			levelTitles.add(lvTitle);
+		}
+	}
+
+	// changer funcs
+	function changeLevel(change:Int = 0):Void
+	{
+		var currentIndex:Int = levelList.indexOf(currentLevelId);
+
+		currentIndex += change;
+
+		// Wrap around
+		if (currentIndex < 0) currentIndex = levelList.length - 1;
+		if (currentIndex >= levelList.length) currentIndex = 0;
+
+		var previousLevelId:String = currentLevelId;
+		currentLevelId = levelList[currentIndex];
+		rememberedLevelId = currentLevelId;
+
+		updateData();
+		
+		for (index in 0...levelTitles.members.length)
+		{
+			var item:LevelTitle = levelTitles.members[index];
+
+			item.targetY = (index - (currentIndex * 0.5)) * 150 + 100;
+
+			if (index == currentIndex)
+			{
+				currentLevelTitle = item;
+				item.alpha = 1.0;
+			}
+			else
+			{
+				item.alpha = 0.6 - (0.2 * Math.abs((index - currentIndex)));
+			}
+		}
+
+		FunkinSound.playOnce(Paths.sound('scrollMenu'), 0.4);
+		updateText();
+	}
+
+	function keyShits() {	
+		if (!exitingMenu)
+		{	
+			if (!selectedLevel)
+			{
+				if (controls.UI_UP_P)
+				{
+					changeLevel(-1);
+				}
+
+				if (controls.UI_DOWN_P)
+				{
+					changeLevel(1);
+				}
+			}
+			
+			if (controls.ACCEPT)
+			{
+				selectLevel();
+			}
+		}
+
+		if (controls.BACK && !exitingMenu && !selectedLevel)
+		{
+			FunkinSound.playOnce(Paths.sound('cancelMenu'));
+			exitingMenu = true;
+			FlxG.switchState(() -> new MainMenuState());
+		}
+	}
+	
+	function selectLevel():Void
+	{
+		if (!currentLevel.isUnlocked())
+		{
+			FunkinSound.playOnce(Paths.sound('cancelMenu'));
+			return;
+		}
+
+		if (selectedLevel) return;
+
+		selectedLevel = true;
+		FlxTween.color(whiteFade, 0.25, 0x8FFFFFFF, 0x00FFFFFF);
+		
+		FunkinSound.playOnce(Paths.sound('confirmMenu'));
+		currentLevelTitle.isFlashing = true;
+
+		Paths.setCurrentLevel(currentLevel.id);
+
+		PlayStatePlaylist.playlistSongIds = currentLevel.getSongs();
+		PlayStatePlaylist.isStoryMode = true;
+		PlayStatePlaylist.campaignScore = 0;
+
+		var targetSongId:String = PlayStatePlaylist.playlistSongIds.shift();
+
+		var targetSong:Song = SongRegistry.instance.fetchEntry(targetSongId);
+
+		PlayStatePlaylist.campaignId = currentLevel.id;
+		PlayStatePlaylist.campaignTitle = currentLevel.getTitle();
+		PlayStatePlaylist.campaignDifficulty = "normal";
+
+		// Highscore.talliesLevel = new funkin.Highscore.Tallies();
+
+		new FlxTimer().start(1, function(tmr:FlxTimer) {
+			FlxTransitionableState.skipNextTransIn = false;
+			FlxTransitionableState.skipNextTransOut = false;
+
+			var targetVariation:String = targetSong.getFirstValidVariation(PlayStatePlaylist.campaignDifficulty);
+
+			LoadingState.loadPlayState(
+				{
+					targetSong: targetSong,
+					targetDifficulty: PlayStatePlaylist.campaignDifficulty,
+					targetVariation: targetVariation
+				}, true);
+		});
+	}
+	
+	function updateText() {
+		levelTracks.text = '';
+		levelTracks.text += currentLevel.getSongDisplayNames('normal').join(' - ');
+
+		var levelScore:Null<SaveScoreData> = Save.instance.getLevelScore(currentLevelId, 'normal');
+		if (levelScore != null) {
+			highScore = levelScore.score;
+		} else {
+			highScore = 0;
+		}
+	}
+	
+	function updateData():Void
+	{
+		currentLevel = LevelRegistry.instance.fetchEntry(currentLevelId);
+		isLevelUnlocked = currentLevel == null ? false : currentLevel.isUnlocked();
+	}
+}

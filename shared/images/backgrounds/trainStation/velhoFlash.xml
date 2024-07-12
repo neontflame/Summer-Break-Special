@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="velhoFlash.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="veio idle0000" x="0" y="0" width="100" height="173" frameX="0" frameY="-2" frameWidth="100" frameHeight="175"/>
+	<SubTexture name="veio idle0001" x="0" y="0" width="100" height="173" frameX="0" frameY="-2" frameWidth="100" frameHeight="175"/>
+	<SubTexture name="veio idle0002" x="100" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="100" frameHeight="175"/>
+	<SubTexture name="veio idle0003" x="100" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="100" frameHeight="175"/>
+	<SubTexture name="veio idle0004" x="199" y="0" width="99" height="175"/>
+	<SubTexture name="veio idle0005" x="199" y="0" width="99" height="175"/>
+	<SubTexture name="veio olhar0000" x="199" y="0" width="99" height="175"/>
+	<SubTexture name="veio olhar0001" x="199" y="0" width="99" height="175"/>
+	<SubTexture name="veio olhar0002" x="298" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0003" x="298" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0004" x="397" y="0" width="99" height="173" frameX="0" frameY="-2" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0005" x="397" y="0" width="99" height="173" frameX="0" frameY="-2" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0006" x="0" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0007" x="0" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0008" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0009" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0010" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0011" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0012" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0013" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0014" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0015" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0016" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0017" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0018" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0019" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0020" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0021" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0022" x="99" y="175" width="99" height="172" frameX="0" frameY="-3" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0023" x="397" y="0" width="99" height="173" frameX="0" frameY="-2" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0024" x="397" y="0" width="99" height="173" frameX="0" frameY="-2" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0025" x="298" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="99" frameHeight="175"/>
+	<SubTexture name="veio olhar0026" x="298" y="0" width="99" height="174" frameX="0" frameY="-1" frameWidth="99" frameHeight="175"/>
+</TextureAtlas>

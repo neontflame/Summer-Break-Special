@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfLookie.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF LOOKING NOTE DOWN0000" x="0" y="0" width="361" height="359" pivotX="-23.4" pivotY="-11.2" frameX="-2" frameY="-4" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0001" x="0" y="0" width="361" height="359" frameX="-2" frameY="-4" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0002" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0003" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0004" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0005" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0006" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0007" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0008" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0009" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0010" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0011" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0012" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0013" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0014" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0015" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0016" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0017" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0018" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0019" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0020" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0021" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0022" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0023" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0024" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0025" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0026" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0027" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0028" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE DOWN0029" x="361" y="0" width="359" height="363" frameX="0" frameY="0" frameWidth="363" frameHeight="363"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0000" x="720" y="0" width="367" height="406" pivotX="-304.6" pivotY="194.3" frameX="0" frameY="0" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0001" x="720" y="0" width="367" height="406" frameX="0" frameY="0" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0002" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0003" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0004" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0005" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0006" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0007" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0008" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0009" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0010" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0011" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0012" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE LEFT0013" x="1087" y="0" width="361" height="404" frameX="-7" frameY="-2" frameWidth="368" frameHeight="406"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0000" x="1448" y="0" width="385" height="407" pivotX="-344.65" pivotY="196.55" frameX="-1" frameY="-1" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0001" x="1448" y="0" width="385" height="407" frameX="-1" frameY="-1" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0002" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0003" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0004" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0005" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0006" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0007" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0008" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0009" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0010" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0011" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0012" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0013" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0014" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0015" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0016" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0017" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0018" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0019" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0020" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0021" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0022" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0023" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0024" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0025" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0026" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0027" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0028" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0029" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0030" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0031" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0032" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0033" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0034" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0035" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0036" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0037" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0038" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0039" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0040" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0041" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0042" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0043" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0044" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0045" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0046" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0047" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0048" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0049" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0050" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0051" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0052" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0053" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0054" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0055" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0056" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0057" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0058" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0059" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0060" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE RIGHT0061" x="0" y="407" width="384" height="408" frameX="0" frameY="0" frameWidth="386" frameHeight="408"/>
+	<SubTexture name="BF LOOKING NOTE UP0000" x="384" y="407" width="353" height="438" pivotX="-40.5" pivotY="-44.95" frameX="-2" frameY="0" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0001" x="384" y="407" width="353" height="438" frameX="-2" frameY="0" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0002" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0003" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0004" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0005" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0006" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0007" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0008" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0009" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0010" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0011" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0012" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0013" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF LOOKING NOTE UP0014" x="737" y="407" width="359" height="431" frameX="0" frameY="-7" frameWidth="359" frameHeight="438"/>
+	<SubTexture name="BF Look idle0000" x="1096" y="407" width="373" height="405" pivotX="-307.25" pivotY="202.7" frameX="0" frameY="-8" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0001" x="1096" y="407" width="373" height="405" frameX="0" frameY="-8" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0002" x="1469" y="407" width="373" height="406" frameX="0" frameY="-7" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0003" x="1469" y="407" width="373" height="406" frameX="0" frameY="-7" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0004" x="0" y="845" width="372" height="410" frameX="-2" frameY="-3" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0005" x="0" y="845" width="372" height="410" frameX="-2" frameY="-3" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0006" x="372" y="845" width="375" height="412" frameX="0" frameY="-1" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0007" x="372" y="845" width="375" height="412" frameX="0" frameY="-1" frameWidth="375" frameHeight="413"/>
+	<SubTexture name="BF Look idle0008" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0009" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0010" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0011" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0012" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0013" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0014" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF Look idle0015" x="747" y="845" width="375" height="413"/>
+	<SubTexture name="BF lookie0000" x="1122" y="845" width="408" height="412" pivotX="-301.3" pivotY="205.75" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0001" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0002" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0003" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0004" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0005" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0006" x="1122" y="845" width="408" height="412" frameX="0" frameY="-4" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0007" x="1530" y="845" width="404" height="414" frameX="0" frameY="-2" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0008" x="1530" y="845" width="404" height="414" frameX="0" frameY="-2" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0009" x="0" y="1259" width="366" height="416" frameX="-8" frameY="0" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0010" x="0" y="1259" width="366" height="416" frameX="-8" frameY="0" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0011" x="366" y="1259" width="373" height="414" frameX="-7" frameY="-2" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0012" x="366" y="1259" width="373" height="414" frameX="-7" frameY="-2" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0013" x="739" y="1259" width="375" height="413" frameX="-6" frameY="-3" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0014" x="739" y="1259" width="375" height="413" frameX="-6" frameY="-3" frameWidth="408" frameHeight="416"/>
+	<SubTexture name="BF lookie0015" x="739" y="1259" width="375" height="413" frameX="-6" frameY="-3" frameWidth="408" frameHeight="416"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tomo.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tomo down0000" x="0" y="0" width="376" height="432" pivotX="-59.7" pivotY="-46.45" frameX="-6" frameY="-5" frameWidth="382" frameHeight="439"/>
+	<SubTexture name="tomo down0001" x="0" y="0" width="376" height="432" frameX="-6" frameY="-5" frameWidth="382" frameHeight="439"/>
+	<SubTexture name="tomo down0002" x="376" y="0" width="377" height="439" frameX="0" frameY="0" frameWidth="382" frameHeight="439"/>
+	<SubTexture name="tomo down0003" x="376" y="0" width="377" height="439" frameX="0" frameY="0" frameWidth="382" frameHeight="439"/>
+	<SubTexture name="tomo down0004" x="753" y="0" width="377" height="439" frameX="0" frameY="0" frameWidth="382" frameHeight="439"/>
+	<SubTexture name="tomo hey0000" x="1130" y="0" width="360" height="485" pivotX="-15.5" pivotY="2.05" frameX="-7" frameY="0" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo hey0001" x="1130" y="0" width="360" height="485" frameX="-7" frameY="0" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo hey0002" x="1490" y="0" width="380" height="481" frameX="0" frameY="-4" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo hey0003" x="1490" y="0" width="380" height="481" frameX="0" frameY="-4" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo hey0004" x="0" y="485" width="371" height="482" frameX="-4" frameY="-3" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo hey0005" x="0" y="485" width="371" height="482" frameX="-4" frameY="-3" frameWidth="380" frameHeight="485"/>
+	<SubTexture name="tomo idle0000" x="371" y="485" width="363" height="472" pivotX="-26.8" pivotY="0" frameX="-3" frameY="-11" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0001" x="371" y="485" width="363" height="472" frameX="-3" frameY="-11" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0002" x="734" y="485" width="364" height="474" frameX="-4" frameY="-9" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0003" x="734" y="485" width="364" height="474" frameX="-4" frameY="-9" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0004" x="1098" y="485" width="370" height="482" frameX="-1" frameY="-1" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0005" x="1098" y="485" width="370" height="482" frameX="-1" frameY="-1" frameWidth="372" frameHeight="483"/>
+	<SubTexture name="tomo idle0006" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0007" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0008" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0009" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0010" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0011" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0012" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo idle0013" x="1468" y="485" width="372" height="483"/>
+	<SubTexture name="tomo left0000" x="0" y="968" width="385" height="477" pivotX="14.15" pivotY="-3.4" frameX="0" frameY="-3" frameWidth="385" frameHeight="480"/>
+	<SubTexture name="tomo left0001" x="0" y="968" width="385" height="477" frameX="0" frameY="-3" frameWidth="385" frameHeight="480"/>
+	<SubTexture name="tomo left0002" x="385" y="968" width="377" height="480" frameX="-8" frameY="0" frameWidth="385" frameHeight="480"/>
+	<SubTexture name="tomo left0003" x="385" y="968" width="377" height="480" frameX="-8" frameY="0" frameWidth="385" frameHeight="480"/>
+	<SubTexture name="tomo left0004" x="762" y="968" width="376" height="480" frameX="-9" frameY="0" frameWidth="385" frameHeight="480"/>
+	<SubTexture name="tomo right0000" x="1138" y="968" width="349" height="480" pivotX="-83.6" pivotY="-3.5" frameX="-9" frameY="0" frameWidth="358" frameHeight="480"/>
+	<SubTexture name="tomo right0001" x="1138" y="968" width="349" height="480" frameX="-9" frameY="0" frameWidth="358" frameHeight="480"/>
+	<SubTexture name="tomo right0002" x="1487" y="968" width="352" height="479" frameX="-1" frameY="-1" frameWidth="358" frameHeight="480"/>
+	<SubTexture name="tomo right0003" x="1487" y="968" width="352" height="479" frameX="-1" frameY="-1" frameWidth="358" frameHeight="480"/>
+	<SubTexture name="tomo right0004" x="0" y="1448" width="353" height="479" frameX="0" frameY="-1" frameWidth="358" frameHeight="480"/>
+	<SubTexture name="tomo up0000" x="353" y="1448" width="426" height="531" pivotX="4.1" pivotY="44.7" frameX="0" frameY="0" frameWidth="429" frameHeight="531"/>
+	<SubTexture name="tomo up0001" x="353" y="1448" width="426" height="531" frameX="0" frameY="0" frameWidth="429" frameHeight="531"/>
+	<SubTexture name="tomo up0002" x="779" y="1448" width="427" height="520" frameX="-2" frameY="-10" frameWidth="429" frameHeight="531"/>
+	<SubTexture name="tomo up0003" x="779" y="1448" width="427" height="520" frameX="-2" frameY="-10" frameWidth="429" frameHeight="531"/>
+	<SubTexture name="tomo up0004" x="779" y="1448" width="427" height="520" frameX="-2" frameY="-10" frameWidth="429" frameHeight="531"/>
+</TextureAtlas>

@@ -1,0 +1,107 @@
+{
+    "version": "1.0.0",
+    "name": "Chiyo Mihama",
+    "assetPath": "characters/chiyochan",
+    "singTime": 4,
+    "isPixel": false,
+    "scale": 1,
+    "healthIcon": {
+        "id": "chiyoFeary",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "chiyo idle",
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "chiyo left",
+            "offsets": [
+                63,
+                4
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "chiyo down",
+            "offsets": [
+                35,
+                -45
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "chiyo up",
+            "offsets": [
+                -13,
+                87
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "chiyo right",
+            "offsets": [
+                1,
+                2
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+		{
+            "name": "singLEFTmiss",
+            "prefix": "chiyo miss left",
+            "offsets": [
+                63,
+                4
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "chiyo miss down",
+            "offsets": [
+                35,
+                -45
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "chiyo miss up",
+            "offsets": [
+                -13,
+                87
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "chiyo miss right",
+            "offsets": [
+                1,
+                2
+            ],
+            "frameRate": 24,
+            "frameIndices": []
+        }
+    ],
+    "flipX": true
+}

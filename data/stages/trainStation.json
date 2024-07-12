@@ -1,0 +1,137 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-300, -300],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "sky",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/ceu",
+      "scroll": [0, 0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 12,
+      "position": [0, 608],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "floor",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/chao",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 11,
+      "position": [-100, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "backBuilding",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/aquelePredioDeTras",
+      "scroll": [0.4, 0.85],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [495, -20],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "station",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/edstacao",
+      "scroll": [0.8, 0.975],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 21,
+      "position": [1362, 274],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "bancadaback",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/bancadaBack",
+      "scroll": [0.815, 0.979],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 22,
+      "position": [1514, 381],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "oldGuy",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/velhoFlash",
+      "scroll": [0.815, 0.979],
+      "animations": [
+        {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "veio idle",
+          "flipX": false,
+          "name": "idle"
+        },
+        {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "veio olhar",
+          "flipX": false,
+          "name": "look"
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 23,
+      "position": [1362, 274],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "bancada",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/bancada",
+      "scroll": [0.815, 0.979],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 30,
+      "position": [-100, -100],
+      "scale": [1.4, 1.4],
+      "animType": "sparrow",
+      "name": "sun",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/luzDoSol",
+      "scroll": [0.5, 0.5],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.95,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1346, 983],
+      "cameraOffsets": [-200, -130]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [651, 983],
+      "cameraOffsets": [200, -105]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [951.5, 932]
+    }
+  },
+  "name": "Train Station"
+}
