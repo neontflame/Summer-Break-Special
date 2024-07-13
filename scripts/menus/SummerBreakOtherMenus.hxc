@@ -49,6 +49,7 @@ class SummerBreakMainmenu extends Module
 		if (Std.isOfType(event.targetState, MainMenuState))
 		{
 			// cameras???
+			// nevermind i was just acting stupid i FORGOT to sort by z-index
 			/*
 			var camDefault:FlxCamera;
 			var camFront:FlxCamera;
@@ -72,9 +73,6 @@ class SummerBreakMainmenu extends Module
 			var modThing:FlxSprite = new FlxSprite(-29, 684).loadGraphic(Paths.image('mainmenu/about'));
 			modThing.scrollFactor.set(0, 0);
 			modThing.updateHitbox();
-		
-			event.targetState.menuItems.selectedIndex = 0;
-			// Then we can make sure the menu items are repositioned.
 
 			event.targetState.add(azuBg); 
 			event.targetState.add(modThing);

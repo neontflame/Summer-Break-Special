@@ -1,6 +1,7 @@
 import flixel.FlxG;
 
 import funkin.ui.story.StoryMenuState;
+import funkin.ui.credits.CreditsState;
 import funkin.modding.base.ScriptedMusicBeatState;
 import funkin.modding.module.Module;
 
@@ -21,6 +22,12 @@ class SBSMenuRedirector extends Module
 			// We are moving into the main menu.
 			trace("REDIRECTING MENU!!");
 			FlxG.switchState(ScriptedMusicBeatState.init('SummerBreakStorymenu'));
+		}
+		
+		if (Std.isOfType(event.targetState, CreditsState))
+		{
+			// We are moving into the credits menu.
+			FlxG.switchState(ScriptedMusicBeatState.init('SummerBreakCreditsMenu'));
 		}
 	}
 }

@@ -39,7 +39,6 @@ class SummerBreakStorymenu extends MusicBeatState
 	var currentLevel:Level;
 	var isLevelUnlocked:Bool;
 	
-	var bg:FlxSprite;
 	var pins:FlxSprite;
 	var star:FlxSprite;
 	
@@ -81,7 +80,7 @@ class SummerBreakStorymenu extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		// bg pins shit
-		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/pinBG')); 
+		var bg = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/pinBG')); 
 		bg.updateHitbox(); 
 		bg.scrollFactor.set(1, 1); 
 		bg.alpha = 1;
@@ -99,7 +98,7 @@ class SummerBreakStorymenu extends MusicBeatState
 		add(star); 
 		
 		// the other part
-		var black = new FlxSprite(772, 0).makeGraphic(507, 785, 0x8F000000);
+		var black = new FlxSprite(772, 0).makeGraphic(508, 785, 0x8F000000);
 		black.updateHitbox();
 		black.scrollFactor.set(0, 0); 
 		

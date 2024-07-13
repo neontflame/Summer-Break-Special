@@ -1,0 +1,176 @@
+import flixel.FlxG;
+import flixel.FlxObject;
+import flixel.FlxSprite;
+
+import flixel.effects.FlxFlicker;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import lime.utils.Assets;
+import flixel.text.FlxText;
+import funkin.util.MathUtil;
+
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.group.FlxTypedGroup;
+
+import funkin.modding.base.ScriptedMusicBeatState;
+import funkin.ui.MusicBeatState;
+import funkin.Paths;
+import funkin.audio.FunkinSound;
+
+import funkin.ui.mainmenu.MainMenuState;
+import funkin.ui.story.Level;
+import funkin.ui.story.LevelTitle;
+import funkin.data.story.level.LevelRegistry;
+import funkin.save.Save;
+
+import funkin.Highscore;
+
+class SummerBreakCreditsMenu extends MusicBeatState
+{
+	// fucking CREDits!!!!
+	var curDeveloper:Int = 0;
+	
+	var pins:FlxSprite;
+	var star:FlxSprite;
+	
+	var devNames:Array<String> = [	'NeonTFlame', 'CHIYOKILLER', 'SketcherSquared', 'Dex Dousky'];
+	var devRoles:Array<String> = [	'art, animation, coding, music, charting', 
+									'music', 
+									'background and cutscene art', 
+									'music assistance'
+									];
+	var devQuotes:Array<String> = [	'"watch magical play"', 
+									'Lorem ipsum', 
+									'dolor sit', 
+									'amet'
+									];
+	
+	var xPosCool:Array<Int> = [105, 383, 678, 952];
+	var yPosCool:Array<Int> = [179, 269, 197, 279];
+	
+	var devName:FlxText;
+	var devRole:FlxText;
+	var devSay:FlxText;
+	
+	var exitingMenu:Bool = false;
+
+	public function new(?stickers:StickerSubState = null)
+	{
+		super();
+
+		if (stickers != null)
+		{
+			stickerSubState = stickers;
+		}
+	}
+	
+	// state funcs
+	override function create()
+	{
+		if (!FlxG.sound.music.playing)
+		{	
+			FlxG.sound.playMusic(Paths.music(TitleScreen.titleMusic), 1);
+		}
+
+		persistentUpdate = persistentDraw = true;
+
+		// bg pins shit
+		var bg = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/pinBG')); 
+		bg.updateHitbox(); 
+		bg.scrollFactor.set(1, 1); 
+		
+		pins = new FlxSprite(89, 174).loadGraphic(Paths.image('credits/devPins')); 
+		pins.updateHitbox(); 
+		pins.scrollFactor.set(1, 1);
+		
+		star = new FlxSprite(0, 0).loadGraphic(Paths.image('storymenu/star')); 
+		star.updateHitbox(); 
+		star.scrollFactor.set(1, 1); 
+		
+		add(bg); 
+		add(pins); 
+		add(star); 
+		
+		// the other part
+		var black1 = new FlxSprite(-121, -107).makeGraphic(1476, 224, 0x8F000000);
+		black1.updateHitbox();
+		black1.scrollFactor.set(0, 0); 
+		var black2 = new FlxSprite(-121, 569).makeGraphic(1476, 224, 0x8F000000);
+		black2.updateHitbox();
+		black2.scrollFactor.set(0, 0); 
+		
+		devName = new FlxText(28, 9, 590, 'CoolDev', 66);
+		devName.setFormat(Paths.font('augie.ttf'), 66, 0xFFFFFFFF, 'left');
+		devName.scrollFactor.set(0, 0);
+		
+		devRole = new FlxText(35, 28, 1213, 'this, that, whatever that is', 32);
+		devRole.setFormat(Paths.font('augie.ttf'), 32, 0xFFFFB789, 'right');
+		devRole.scrollFactor.set(0, 0);
+		
+		devSay = new FlxText(36, 585, 1211, 'insert witty quote right here', 24);
+		devSay.setFormat(Paths.font('augie.ttf'), 24, 0xFFFFFFFF, 'left');
+		devSay.scrollFactor.set(0, 0);
+
+
+		add(black1); // black overlay
+		add(black2);
+		add(devName); // dev name
+		add(devRole); // dev role
+		add(devSay); // dev quote
+		
+		changeDev(0);
+		
+		super.create();
+	}
+	
+	override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+		
+		star.x = MathUtil.coolLerp(star.x, xPosCool[curDeveloper], 0.3);
+		star.y = MathUtil.coolLerp(star.y, yPosCool[curDeveloper], 0.3);
+		
+		FlxG.camera.scroll.x = MathUtil.coolLerp(FlxG.camera.scroll.x, 15 * curDeveloper, 0.05);
+		
+		devName.text = devNames[curDeveloper];
+		devRole.text = devRoles[curDeveloper];
+		devSay.text = devQuotes[curDeveloper];
+		
+		keyShits();
+	}
+	
+	// changer funcs
+	function changeDev(change:Int = 0):Void
+	{
+		curDeveloper += change;
+		
+		// Wrap around
+		if (curDeveloper < 0) curDeveloper = devNames.length - 1;
+		if (curDeveloper >= devNames.length) curDeveloper = 0;
+		
+		FunkinSound.playOnce(Paths.sound('scrollMenu'), 0.4);
+	}
+
+	function keyShits() {	
+		if (!exitingMenu)
+		{
+			if (controls.UI_LEFT_P)
+			{
+				changeDev(-1);
+			}
+
+			if (controls.UI_RIGHT_P)
+			{
+				changeDev(1);
+			}
+		}
+
+		if (controls.BACK && !exitingMenu)
+		{
+			FunkinSound.playOnce(Paths.sound('cancelMenu'));
+			exitingMenu = true;
+			FlxG.switchState(() -> new MainMenuState());
+		}
+	}
+}
