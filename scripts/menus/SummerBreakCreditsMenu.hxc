@@ -34,16 +34,16 @@ class SummerBreakCreditsMenu extends MusicBeatState
 	var pins:FlxSprite;
 	var star:FlxSprite;
 	
-	var devNames:Array<String> = [	'NeonTFlame', 'CHIYOKILLER', 'SketcherSquared', 'Dex Dousky'];
+	var devNames:Array<String> = [	'NeonTFlame', 'TheIndigo173', 'SketcherSquared', 'Dex Dousky'];
 	var devRoles:Array<String> = [	'art, animation, coding, music, charting', 
 									'music', 
-									'background and cutscene art', 
+									'background art', 
 									'music assistance'
 									];
-	var devQuotes:Array<String> = [	'"watch magical play"', 
-									'Lorem ipsum', 
-									'dolor sit', 
-									'amet'
+	var devQuotes:Array<String> = [	'dunpan dunpan dunpanpan\nbring forth the floodwater from th-wait wrong anime. shit', 
+									'support azuhorrors and watch the deep void', 
+									'she azu on my manga till i DAIOH', 
+									'"baap beep, biip boop" they say'
 									];
 	
 	var xPosCool:Array<Int> = [105, 383, 678, 952];
@@ -68,10 +68,7 @@ class SummerBreakCreditsMenu extends MusicBeatState
 	// state funcs
 	override function create()
 	{
-		if (!FlxG.sound.music.playing)
-		{	
-			FlxG.sound.playMusic(Paths.music(TitleScreen.titleMusic), 1);
-		}
+		FlxG.sound.playMusic(Paths.music('unfreakyMenu'), 1);
 
 		persistentUpdate = persistentDraw = true;
 

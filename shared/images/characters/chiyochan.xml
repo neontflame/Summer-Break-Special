@@ -2,215 +2,275 @@
 <TextureAtlas imagePath="chiyochan.png">
 	<!-- Created with Adobe Animate version 19.0.0.326 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="chiyo death start0000" x="0" y="0" width="387" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0001" x="0" y="0" width="387" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0002" x="0" y="0" width="387" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0003" x="0" y="0" width="387" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0004" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0005" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0006" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0007" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0008" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0009" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0010" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0011" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0012" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0013" x="387" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0014" x="869" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0015" x="869" y="0" width="482" height="444" frameX="-160" frameY="0" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0016" x="1351" y="0" width="494" height="439" frameX="-148" frameY="-5" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0017" x="1351" y="0" width="494" height="439" frameX="-148" frameY="-5" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0018" x="1351" y="0" width="494" height="439" frameX="-148" frameY="-5" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0019" x="0" y="444" width="499" height="439" frameX="-143" frameY="-5" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0020" x="0" y="444" width="499" height="439" frameX="-143" frameY="-5" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0021" x="499" y="444" width="489" height="428" frameX="-143" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0022" x="988" y="444" width="489" height="428" frameX="-143" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0023" x="1477" y="444" width="523" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0024" x="1477" y="444" width="523" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0025" x="1477" y="444" width="523" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0026" x="1477" y="444" width="523" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0027" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0028" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0029" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0030" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0031" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0032" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0033" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0034" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0035" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0036" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0037" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0038" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0039" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0040" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0041" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0042" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0043" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0044" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0045" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0046" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0047" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0048" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0049" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0050" x="0" y="883" width="545" height="428" frameX="-129" frameY="-15" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0051" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0052" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0053" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0054" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0055" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0056" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0057" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0058" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0059" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0060" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0061" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0062" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0063" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0064" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0065" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0066" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0067" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0068" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0069" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0070" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0071" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0072" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0073" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0074" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0075" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0076" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0077" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0078" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0079" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0080" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0081" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0082" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0083" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo death start0084" x="545" y="883" width="674" height="260" frameX="0" frameY="-349" frameWidth="674" frameHeight="609"/>
-	<SubTexture name="chiyo down0000" x="1219" y="883" width="344" height="382" frameX="0" frameY="-3" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0001" x="1219" y="883" width="344" height="382" frameX="0" frameY="-3" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0002" x="1563" y="883" width="346" height="385" frameX="-3" frameY="-1" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0003" x="1563" y="883" width="346" height="385" frameX="-3" frameY="-1" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0004" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0005" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0006" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0007" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0008" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0009" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0010" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0011" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0012" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo down0013" x="0" y="1311" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo idle0000" x="346" y="1311" width="325" height="431" frameX="0" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0001" x="346" y="1311" width="325" height="431" frameX="0" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0002" x="671" y="1311" width="324" height="432" frameX="0" frameY="0" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0003" x="671" y="1311" width="324" height="432" frameX="0" frameY="0" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0004" x="995" y="1311" width="329" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0005" x="995" y="1311" width="329" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0006" x="1324" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0007" x="1324" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0008" x="1655" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0009" x="1655" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0010" x="1324" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0011" x="1324" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0012" x="1655" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo idle0013" x="1655" y="1311" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
-	<SubTexture name="chiyo left0000" x="0" y="1743" width="355" height="433" frameX="0" frameY="-4" frameWidth="363" frameHeight="437"/>
-	<SubTexture name="chiyo left0001" x="0" y="1743" width="355" height="433" frameX="0" frameY="-4" frameWidth="363" frameHeight="437"/>
-	<SubTexture name="chiyo left0002" x="355" y="1743" width="359" height="437" frameX="0" frameY="0" frameWidth="363" frameHeight="437"/>
-	<SubTexture name="chiyo left0003" x="355" y="1743" width="359" height="437" frameX="0" frameY="0" frameWidth="363" frameHeight="437"/>
-	<SubTexture name="chiyo left0004" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0005" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0006" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0007" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0008" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0009" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0010" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0011" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0012" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo left0013" x="714" y="1743" width="363" height="437"/>
-	<SubTexture name="chiyo miss down0000" x="1219" y="883" width="344" height="382" frameX="0" frameY="0" frameWidth="349" frameHeight="386"/>
-	<SubTexture name="chiyo miss down0001" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0002" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0003" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0004" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0005" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0006" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0007" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0008" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0009" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0010" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0011" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0012" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss down0013" x="1077" y="1743" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
-	<SubTexture name="chiyo miss left0000" x="1401" y="1743" width="355" height="433"/>
-	<SubTexture name="chiyo miss left0001" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0002" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0003" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0004" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0005" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0006" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0007" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0008" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0009" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0010" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0011" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0012" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss left0013" x="0" y="2180" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0000" x="1317" y="2180" width="383" height="433" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo miss right0001" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0002" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0003" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0004" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0005" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0006" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0007" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0008" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0009" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0010" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0011" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0012" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss right0013" x="334" y="2180" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
-	<SubTexture name="chiyo miss up0000" x="696" y="2180" width="311" height="518" frameX="0" frameY="-1" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0001" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0002" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0003" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0004" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0005" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0006" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0007" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0008" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0009" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0010" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0011" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0012" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo miss up0013" x="1007" y="2180" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
-	<SubTexture name="chiyo right0000" x="1317" y="2180" width="383" height="433" frameX="-1" frameY="-2" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0001" x="1317" y="2180" width="383" height="433" frameX="-1" frameY="-2" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0002" x="0" y="2698" width="381" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0003" x="0" y="2698" width="381" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0004" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0005" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0006" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0007" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0008" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0009" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0010" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0011" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0012" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo right0013" x="381" y="2698" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
-	<SubTexture name="chiyo up0000" x="759" y="2698" width="311" height="518" frameX="0" frameY="0" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0001" x="759" y="2698" width="311" height="518" frameX="0" frameY="0" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0002" x="1070" y="2698" width="310" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0003" x="1070" y="2698" width="310" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0004" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0005" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0006" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0007" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0008" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0009" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0010" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0011" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0012" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
-	<SubTexture name="chiyo up0013" x="1380" y="2698" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo death bump0000" x="0" y="0" width="768" height="237"/>
+	<SubTexture name="chiyo death bump0001" x="0" y="0" width="768" height="237"/>
+	<SubTexture name="chiyo death bump0002" x="768" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0003" x="768" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0004" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0005" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0006" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0007" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0008" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0009" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0010" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0011" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0012" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0013" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death bump0014" x="1535" y="0" width="767" height="234" frameX="0" frameY="-3" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death confirm0000" x="2302" y="0" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0001" x="3080" y="0" width="781" height="238"/>
+	<SubTexture name="chiyo death confirm0002" x="0" y="238" width="781" height="238"/>
+	<SubTexture name="chiyo death confirm0003" x="0" y="238" width="781" height="238"/>
+	<SubTexture name="chiyo death confirm0004" x="781" y="238" width="781" height="238"/>
+	<SubTexture name="chiyo death confirm0005" x="1562" y="238" width="781" height="238"/>
+	<SubTexture name="chiyo death confirm0006" x="2343" y="238" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0007" x="3123" y="238" width="781" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0008" x="0" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0009" x="0" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0010" x="780" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0011" x="1560" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0012" x="2340" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0013" x="3120" y="476" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0014" x="0" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0015" x="0" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0016" x="780" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0017" x="780" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0018" x="1560" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0019" x="2340" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0020" x="3120" y="713" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0021" x="0" y="950" width="780" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0022" x="780" y="950" width="779" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0023" x="1559" y="950" width="778" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0024" x="2337" y="950" width="779" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0025" x="3116" y="950" width="779" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0026" x="0" y="1187" width="779" height="237" frameX="0" frameY="-1" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0027" x="779" y="1187" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0028" x="1558" y="1187" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0029" x="1558" y="1187" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0030" x="2337" y="1187" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0031" x="3116" y="1187" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0032" x="0" y="1424" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0033" x="779" y="1424" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0034" x="1558" y="1424" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0035" x="2336" y="1424" width="779" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0036" x="3115" y="1424" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0037" x="3115" y="1424" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0038" x="3115" y="1424" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0039" x="0" y="1660" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0040" x="0" y="1660" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0041" x="778" y="1660" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0042" x="1556" y="1660" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0043" x="2334" y="1660" width="778" height="236" frameX="0" frameY="-2" frameWidth="781" frameHeight="238"/>
+	<SubTexture name="chiyo death confirm0044" x="1535" y="0" width="767" height="234" frameX="0" frameY="-2" frameWidth="768" frameHeight="237"/>
+	<SubTexture name="chiyo death start0000" x="3112" y="1660" width="331" height="444" frameX="-310" frameY="-8" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0001" x="3112" y="1660" width="331" height="444" frameX="-310" frameY="-8" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0002" x="3443" y="1660" width="331" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0003" x="3443" y="1660" width="331" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0004" x="0" y="2111" width="353" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0005" x="0" y="2111" width="353" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0006" x="353" y="2111" width="352" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0007" x="353" y="2111" width="352" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0008" x="353" y="2111" width="352" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0009" x="353" y="2111" width="352" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0010" x="705" y="2111" width="351" height="451" frameX="-310" frameY="-1" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0011" x="1056" y="2111" width="351" height="452" frameX="-310" frameY="0" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0012" x="1056" y="2111" width="351" height="452" frameX="-310" frameY="0" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0013" x="1407" y="2111" width="366" height="441" frameX="-295" frameY="-11" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0014" x="1773" y="2111" width="366" height="441" frameX="-295" frameY="-11" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0015" x="2139" y="2111" width="379" height="441" frameX="-282" frameY="-11" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0016" x="2518" y="2111" width="414" height="431" frameX="-242" frameY="-21" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0017" x="2518" y="2111" width="414" height="431" frameX="-242" frameY="-21" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0018" x="2932" y="2111" width="437" height="431" frameX="-242" frameY="-21" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0019" x="3369" y="2111" width="444" height="431" frameX="-235" frameY="-21" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0020" x="0" y="2563" width="449" height="431" frameX="-235" frameY="-21" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0021" x="449" y="2563" width="494" height="428" frameX="-232" frameY="-23" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0022" x="943" y="2563" width="494" height="428" frameX="-232" frameY="-23" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0023" x="1437" y="2563" width="518" height="427" frameX="-228" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0024" x="1955" y="2563" width="518" height="427" frameX="-228" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0025" x="2473" y="2563" width="530" height="427" frameX="-221" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0026" x="2473" y="2563" width="530" height="427" frameX="-221" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0027" x="3003" y="2563" width="538" height="427" frameX="-223" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0028" x="3003" y="2563" width="538" height="427" frameX="-223" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0029" x="3541" y="2563" width="542" height="427" frameX="-226" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0030" x="0" y="2994" width="544" height="427" frameX="-226" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0031" x="544" y="2994" width="543" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0032" x="1087" y="2994" width="543" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0033" x="1630" y="2994" width="543" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0034" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0035" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0036" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0037" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0038" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0039" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0040" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0041" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0042" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0043" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0044" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0045" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0046" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0047" x="2173" y="2994" width="542" height="427" frameX="-227" frameY="-24" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0048" x="2715" y="2994" width="542" height="420" frameX="-227" frameY="-31" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0049" x="2715" y="2994" width="542" height="420" frameX="-227" frameY="-31" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0050" x="2715" y="2994" width="542" height="420" frameX="-227" frameY="-31" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0051" x="3257" y="2994" width="638" height="347" frameX="-131" frameY="-115" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0052" x="0" y="3421" width="769" height="232" frameX="0" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0053" x="0" y="3421" width="769" height="232" frameX="0" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0054" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0055" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0056" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0057" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0058" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0059" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0060" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0061" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0062" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0063" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0064" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0065" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0066" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0067" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0068" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0069" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0070" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0071" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0072" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0073" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0074" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0075" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0076" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0077" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0078" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0079" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0080" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0081" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0082" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0083" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo death start0084" x="769" y="3421" width="767" height="234" frameX="-2" frameY="-350" frameWidth="770" frameHeight="584"/>
+	<SubTexture name="chiyo down0000" x="1077" y="3853" width="344" height="382" frameX="0" frameY="-3" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo down0001" x="1077" y="3853" width="344" height="382" frameX="0" frameY="-3" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo down0002" x="1536" y="3421" width="346" height="385" frameX="-3" frameY="-1" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0003" x="1536" y="3421" width="346" height="385" frameX="-3" frameY="-1" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0004" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0005" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0006" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0007" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0008" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0009" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0010" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0011" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0012" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo down0013" x="1882" y="3421" width="346" height="386" frameX="-3" frameY="0" frameWidth="349" frameHeight="386"/>
+	<SubTexture name="chiyo idle0000" x="2228" y="3421" width="325" height="431" frameX="0" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0001" x="2228" y="3421" width="325" height="431" frameX="0" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0002" x="2553" y="3421" width="324" height="432" frameX="0" frameY="0" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0003" x="2553" y="3421" width="324" height="432" frameX="0" frameY="0" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0004" x="2877" y="3421" width="329" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0005" x="2877" y="3421" width="329" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0006" x="3206" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0007" x="3206" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0008" x="3537" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0009" x="3537" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0010" x="3206" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0011" x="3206" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0012" x="3537" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo idle0013" x="3537" y="3421" width="331" height="432" frameX="-1" frameY="-1" frameWidth="332" frameHeight="433"/>
+	<SubTexture name="chiyo left0000" x="0" y="3853" width="355" height="433" frameX="0" frameY="-4" frameWidth="363" frameHeight="437"/>
+	<SubTexture name="chiyo left0001" x="0" y="3853" width="355" height="433" frameX="0" frameY="-4" frameWidth="363" frameHeight="437"/>
+	<SubTexture name="chiyo left0002" x="355" y="3853" width="359" height="437" frameX="0" frameY="0" frameWidth="363" frameHeight="437"/>
+	<SubTexture name="chiyo left0003" x="355" y="3853" width="359" height="437" frameX="0" frameY="0" frameWidth="363" frameHeight="437"/>
+	<SubTexture name="chiyo left0004" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0005" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0006" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0007" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0008" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0009" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0010" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0011" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0012" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo left0013" x="714" y="3853" width="363" height="437"/>
+	<SubTexture name="chiyo miss down0000" x="1077" y="3853" width="344" height="382"/>
+	<SubTexture name="chiyo miss down0001" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0002" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0003" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0004" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0005" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0006" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0007" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0008" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0009" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0010" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0011" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0012" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss down0013" x="1421" y="3853" width="324" height="382" frameX="-19" frameY="0" frameWidth="344" frameHeight="382"/>
+	<SubTexture name="chiyo miss left0000" x="1745" y="3853" width="355" height="433"/>
+	<SubTexture name="chiyo miss left0001" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0002" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0003" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0004" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0005" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0006" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0007" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0008" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0009" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0010" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0011" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0012" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss left0013" x="2100" y="3853" width="334" height="432" frameX="-21" frameY="0" frameWidth="355" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0000" x="2434" y="3853" width="383" height="433"/>
+	<SubTexture name="chiyo miss right0001" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0002" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0003" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0004" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0005" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0006" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0007" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0008" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0009" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0010" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0011" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0012" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss right0013" x="2817" y="3853" width="362" height="432" frameX="-21" frameY="0" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo miss up0000" x="3179" y="3853" width="311" height="518" frameX="0" frameY="-1" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0001" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0002" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0003" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0004" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0005" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0006" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0007" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0008" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0009" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0010" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0011" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0012" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo miss up0013" x="3490" y="3853" width="310" height="518" frameX="-1" frameY="0" frameWidth="311" frameHeight="519"/>
+	<SubTexture name="chiyo right0000" x="2434" y="3853" width="383" height="433" frameX="-1" frameY="-2" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo right0001" x="2434" y="3853" width="383" height="433" frameX="-1" frameY="-2" frameWidth="383" frameHeight="433"/>
+	<SubTexture name="chiyo right0002" x="0" y="4371" width="381" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0003" x="0" y="4371" width="381" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0004" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0005" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0006" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0007" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0008" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0009" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0010" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0011" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0012" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo right0013" x="381" y="4371" width="378" height="435" frameX="0" frameY="0" frameWidth="384" frameHeight="435"/>
+	<SubTexture name="chiyo up0000" x="759" y="4371" width="311" height="518" frameX="0" frameY="0" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0001" x="759" y="4371" width="311" height="518" frameX="0" frameY="0" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0002" x="1070" y="4371" width="310" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0003" x="1070" y="4371" width="310" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0004" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0005" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0006" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0007" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0008" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0009" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0010" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0011" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0012" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
+	<SubTexture name="chiyo up0013" x="1380" y="4371" width="309" height="511" frameX="-6" frameY="-7" frameWidth="316" frameHeight="518"/>
 </TextureAtlas>

@@ -1,0 +1,33 @@
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+
+import funkin.play.PlayState;
+import funkin.play.song.Song;
+import funkin.play.event.SongEvent;
+
+class GhoulishSong extends Song
+{
+	var playst;
+	var blackThing:FlxSprite;
+	var tween;
+	
+	function new()
+	{
+		super('ghoulish');
+	}
+	
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		playst = PlayState.instance; //DO NOT DELETE
+		blackThing = new FlxSprite(-500, -200).makeGraphic(2280, 1220, 0xFF000000);
+		blackThing.scrollFactor.set(0,0);
+		playst.add(blackThing);
+		
+		super.onCountdownStart(event);
+	}
+	
+    override function onCountdownEnd(event: CountdownScriptEvent):Void
+    {
+        super.onCountdownEnd(event);
+		tween = FlxTween.tween(blackThing, {	alpha: 0	}, 4.0);
+    }
+}

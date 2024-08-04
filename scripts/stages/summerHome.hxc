@@ -1,0 +1,43 @@
+import flixel.FlxG;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+
+class SummerHomeStage extends Stage
+{
+	var everIncrementing:Float = 0;
+	
+	var multfog;
+	var mult2fog;
+	var addfog;
+	var addfogInitialX:Float = 0;
+	
+	function new()
+	{
+		super('summerHome');
+	}
+	
+	override function buildStage():Void
+	{
+		super.buildStage();
+		
+		multfog = getNamedProp('multiplyFog');
+		mult2fog = getNamedProp('anotherMultiplyFog');
+		addfog = getNamedProp('additionFog');
+		
+		addfogInitialX = addfog.x;
+		
+		multfog.blend = 9;
+		mult2fog.blend = 9;
+		addfog.blend = 0;
+		trace("fuck");
+	}
+
+	function onUpdate(event:ScriptEvent):Void
+	{
+		everIncrementing += 0.005;
+		
+		super.onUpdate(event);
+		
+		addfog.x = addfogInitialX + Math.sin(everIncrementing) * 100;
+	}
+}

@@ -9,12 +9,23 @@ class TrainStationStage extends Stage
 		super('trainStation');
 	}
 	
+	override function buildStage():Void
+	{
+		super.buildStage();
+		
+		if (PlayState.instance.currentSong.id.toLowerCase() != "spunk")
+		{
+			getNamedProp('yomi').visible = false;
+		}
+	}
 	function onBeatHit(event:SongTimeScriptEvent)
 	{
 		super.onBeatHit(event);
 		
 		if (event.beat % 2 == 0)
 		{
+			getNamedProp('yomi').animation.play('idle');
+		
 			if (FlxG.random.bool(5.84))
 				getNamedProp('oldGuy').animation.play('look');
 			else

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgOsak.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="osaka down0000" x="0" y="0" width="331" height="471" frameX="0" frameY="-1" frameWidth="331" frameHeight="472"/>
+	<SubTexture name="osaka down0001" x="0" y="0" width="331" height="471" frameX="0" frameY="-1" frameWidth="331" frameHeight="472"/>
+	<SubTexture name="osaka down0002" x="331" y="0" width="331" height="472"/>
+	<SubTexture name="osaka down0003" x="331" y="0" width="331" height="472"/>
+	<SubTexture name="osaka idle0000" x="662" y="0" width="331" height="472"/>
+	<SubTexture name="osaka idle0001" x="662" y="0" width="331" height="472"/>
+	<SubTexture name="osaka idle0002" x="0" y="472" width="331" height="472"/>
+	<SubTexture name="osaka idle0003" x="0" y="472" width="331" height="472"/>
+	<SubTexture name="osaka left0000" x="331" y="472" width="331" height="472" frameX="0" frameY="0" frameWidth="332" frameHeight="472"/>
+	<SubTexture name="osaka left0001" x="331" y="472" width="331" height="472" frameX="0" frameY="0" frameWidth="332" frameHeight="472"/>
+	<SubTexture name="osaka left0002" x="662" y="472" width="331" height="472" frameX="-1" frameY="0" frameWidth="332" frameHeight="472"/>
+	<SubTexture name="osaka left0003" x="662" y="472" width="331" height="472" frameX="-1" frameY="0" frameWidth="332" frameHeight="472"/>
+	<SubTexture name="osaka right0000" x="0" y="944" width="332" height="472" frameX="-1" frameY="0" frameWidth="333" frameHeight="472"/>
+	<SubTexture name="osaka right0001" x="0" y="944" width="332" height="472" frameX="-1" frameY="0" frameWidth="333" frameHeight="472"/>
+	<SubTexture name="osaka right0002" x="332" y="944" width="332" height="472" frameX="0" frameY="0" frameWidth="333" frameHeight="472"/>
+	<SubTexture name="osaka right0003" x="332" y="944" width="332" height="472" frameX="0" frameY="0" frameWidth="333" frameHeight="472"/>
+	<SubTexture name="osaka up0000" x="664" y="944" width="331" height="477"/>
+	<SubTexture name="osaka up0001" x="664" y="944" width="331" height="477"/>
+	<SubTexture name="osaka up0002" x="0" y="1421" width="331" height="475" frameX="0" frameY="-2" frameWidth="331" frameHeight="477"/>
+	<SubTexture name="osaka up0003" x="0" y="1421" width="331" height="475" frameX="0" frameY="-2" frameWidth="331" frameHeight="477"/>
+</TextureAtlas>

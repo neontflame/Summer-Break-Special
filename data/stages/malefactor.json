@@ -1,0 +1,36 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10000,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "teaser",
+      "isPixel": false,
+      "assetPath": "malefacTeaser",
+      "scroll": [0, 0],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 1,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1346, 983],
+      "cameraOffsets": [-200, -130]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [651, 983],
+      "cameraOffsets": [200, -105]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [951.5, 932]
+    }
+  },
+  "name": "Malefactor"
+}

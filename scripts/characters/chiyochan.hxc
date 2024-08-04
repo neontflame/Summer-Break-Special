@@ -1,0 +1,38 @@
+import funkin.play.character.SparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import funkin.play.GameOverSubState;
+import funkin.Paths;
+import flixel.FlxG;
+import funkin.modding.module.ModuleHandler;
+
+
+class ChiyoChanCharacter extends SparrowCharacter {
+	function new() {
+		super('chiyochan');
+	}
+
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+		// NOTE: this.x and this.y are not properly set here.
+		GameOverSubState.blueBallSuffix = '-chiyochan';
+	}
+
+  public override function onResume(event:ScriptEvent) {
+		super.onResume(event);
+	}
+	
+	override function onGameOver(event:ScriptEvent):Void {
+		super.onGameOver(event);
+	}
+
+	override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		// Reset to standard death animation.
+		GameOverSubState.blueBallSuffix = '-chiyochan';
+		
+		this.visible = true;
+	}
+}

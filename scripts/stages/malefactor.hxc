@@ -1,0 +1,84 @@
+import flixel.FlxG;
+import funkin.play.stage.Stage;
+
+// scoretext shit
+import funkin.play.PlayState;
+import flixel.text.FlxText;
+import flixel.text.FlxTextBorderStyle;
+import funkin.Highscore;
+import funkin.Paths;
+
+class MalefactorStage extends Stage
+{
+	var coolScoreTxt:FlxText;
+	
+	function new()
+	{
+		super('malefactor');
+	}
+
+	function onCreate(event:ScriptEvent):Void
+	{
+		super.onCreate(event);
+		coolScoreTxt = new FlxText(0, FlxG.height * 0.9, 0, 'evil as fuk...', 18);
+		coolScoreTxt.setFormat(Paths.font('vcr.ttf'), 18, 0xFFFFFFFF, 'left', FlxTextBorderStyle.OUTLINE, 0xFF000000);
+		coolScoreTxt.scrollFactor.set(0, 0);
+		
+		coolScoreTxt.cameras = [PlayState.instance.camHUD];
+		
+		PlayState.instance.add(coolScoreTxt);
+	}
+	function onUpdate(event:ScriptEvent):Void
+	{
+		var play = PlayState.instance;
+		var scoreText = play.scoreText;
+		
+		super.onUpdate(event);
+
+		hideOpponentStrumline();
+		centerPlayerStrumline();
+		
+		play.healthBarBG.visible = false;
+		play.healthBar.visible = false;
+		play.iconP1.visible = false;
+		play.iconP2.visible = false;
+		
+		var acc:Float = (Highscore.tallies.sick + Highscore.tallies.good) / (Highscore.tallies.totalNotesHit + Highscore.tallies.missed) * 100;
+		
+		coolScoreTxt.text = scoreText.text + " | Misses:" + Highscore.tallies.missed + " | Accuracy:" + truncate(acc, 2) + "%";
+		
+		coolScoreTxt.x = (PlayState.instance.playerStrumline.x + (PlayState.instance.playerStrumline.width / 2)) - coolScoreTxt.width / 2;
+		coolScoreTxt.y = PlayState.instance.playerStrumline.y - 10;
+		//scoreText.x = FlxG.width / 2 - scoreText.width / 2;
+		scoreText.visible = false;
+	}
+	
+	function truncate(num:Float, trunc:Int) {
+		if (!Math.isFinite(num)) return 0; // you cant truncate infinite numbers silly
+		else return Math.round(num * (10 ^ trunc)) / (10 ^ trunc);
+	}
+	
+	function centerPlayerStrumline()
+	{
+    // work smart not hard
+
+		var playerStrumline:FlxSprite = PlayState.instance.playerStrumline;
+		if (playerStrumline != null)
+		{
+			playerStrumline.x = FlxG.width - playerStrumline.width - 50;
+		}
+	}
+	
+	function hideOpponentStrumline()
+	{
+		var opponentStrumline:FlxSprite = PlayState.instance.opponentStrumline;
+		
+		if (opponentStrumline != null)
+		{
+			for (arrow in opponentStrumline.members)
+			{
+				arrow.visible = false;
+			}
+		}
+	}
+}

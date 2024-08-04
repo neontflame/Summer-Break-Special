@@ -34,7 +34,7 @@ import funkin.Highscore;
 class SummerBreakStorymenu extends MusicBeatState
 {
 	// most of the Actual Logic in here is heavily referenced or outright aped off of the basegame's StoryMenuState.hx so. yeah
-	// everything else by neontflame though so if using this state then give credit!!! or not idk im not your dad
+	// everything else by neontflame though so if using this state then give credit!!!
 	var currentLevelId:Int = 0;
 	var currentLevel:Level;
 	var isLevelUnlocked:Bool;

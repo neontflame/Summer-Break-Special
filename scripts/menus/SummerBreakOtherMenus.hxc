@@ -22,6 +22,7 @@ import funkin.ui.AtlasMenuItem;
 
 // TITLE SCREEN
 import funkin.ui.title.TitleState;
+import flixel.effects.FlxFlicker;
 
 // OPTIONS MENU
 import funkin.ui.options.OptionsState;
@@ -136,12 +137,15 @@ class SummerBreakMainmenu extends Module
 	}
 }
 
-
 class SummerBreakTitlescreen extends Module
 {
 	var pushEnter:FlxSprite;
 	var skipAlready:Bool = false;
 	var theState;
+	var coolFlickery:FlxFlicker;
+	// i need better names for my variables i swear
+	var titleThingDone:Bool = false;
+	var enterThinged:Bool = false;
 	
 	public function new()
 	{
@@ -153,6 +157,9 @@ class SummerBreakTitlescreen extends Module
 	 */
 	public function onStateChangeEnd(event:StateChangeScriptEvent)
 	{
+		titleThingDone = false;
+		enterThinged = false;
+		
 		theState = event.targetState;
 		
 		if (Std.isOfType(theState, TitleState))
@@ -184,6 +191,11 @@ class SummerBreakTitlescreen extends Module
 		targetState.logoBl.zIndex = 51;
 			
 		targetState.sort(SortUtil.byZIndex, FlxSort.ASCENDING);
+		
+		// 116 day-long flicker wooooo
+		coolFlickery = FlxFlicker.flicker(pushEnter, 10000000, 0.5, true, true);
+		
+		titleThingDone = true;
 	}
 	
 	override function onUpdate(event) {
@@ -192,6 +204,12 @@ class SummerBreakTitlescreen extends Module
 			if (theState.skippedIntro && !skipAlready) {
 				doTheTitleThing(theState);
 				skipAlready = true;
+			}
+			
+			if (titleThingDone && theState.transitioning && !enterThinged) {
+				enterThinged = true;
+				// another 116 day-long flicker wooooo
+				coolFlickery = FlxFlicker.flicker(pushEnter, 10000000, 0.1, true, true);
 			}
 		}
 		

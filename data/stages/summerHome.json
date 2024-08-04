@@ -1,0 +1,120 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "house",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/house",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 40,
+      "position": [0, 852],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "fence",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/fence",
+      "scroll": [1.1, 1.1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 9,
+      "position": [0, 451],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "backFence",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/backFence",
+      "scroll": [0.89, 0.89],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 5,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "scaryBg",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/scaryBg",
+      "scroll": [0.5, 0.5],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 50,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "multiplyFog",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/multiplyFog",
+      "scroll": [0.915, 0.915],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 50,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "anotherMultiplyFog",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/multiplyFog",
+      "scroll": [0.925, 0.925],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 51,
+      "position": [0, 0],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "anotherFog",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/anotherFog",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 52,
+      "position": [0, 0],
+      "scale": [1.5, 1.5],
+      "animType": "sparrow",
+      "name": "additionFog",
+      "isPixel": false,
+      "assetPath": "backgrounds/summerHome/additionFog",
+      "scroll": [1.2, 1.2],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.95,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 30,
+      "position": [1276, 893],
+      "cameraOffsets": [-200, -150]
+    },
+    "dad": {
+      "zIndex": 20,
+      "position": [742, 893],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 15,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 787]
+    }
+  },
+  "name": "Chiyo's Summer House"
+}

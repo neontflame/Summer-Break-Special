@@ -112,6 +112,27 @@
       "assetPath": "backgrounds/trainStation/luzDoSol",
       "scroll": [0.5, 0.5],
       "animations": []
+    },
+    {
+      "danceEvery": 4,
+      "zIndex": 400,
+      "position": [181, 621],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "yomi",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/chars/bgYomi",
+      "scroll": [1.2, 1.2],
+      "animations": [
+		{
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "yomi bop",
+          "flipX": false,
+          "name": "idle"
+			}
+		]
     }
   ],
   "cameraZoom": 0.95,

@@ -1,0 +1,99 @@
+import funkin.play.PlayState;
+import funkin.play.song.Song;
+import funkin.play.event.SongEvent;
+
+//CHAR SHIT
+import funkin.play.character.BaseCharacter;
+import funkin.play.character.CharacterDataParser;
+import funkin.play.character.CharacterType;
+import funkin.play.character.SparrowCharacter; 
+import funkin.play.character.MultiSparrowCharacter; //this is for the specific character
+
+class SpunkSong extends Song
+{
+	var curStage;
+	
+	function new()
+	{
+		super('spunk');
+	}
+	
+	// removes a character
+	// function arguments: char id
+	function removeChar(name:String) {
+		curStage.remove(curStage.getCharacter(name));
+		curStage.characters.remove(name);
+		
+		trace("goodbye " + name);
+	}
+
+	// spawns a character
+	// function arguments: character id, charactertype (BF, GF, DAD, OTHER), xpos, ypos, z index
+	function addChar(name:String, type:CharacterType, xChar:Float, yChar:Float, zIndexCool:Int, ?xScroll:Float = 1, ?yScroll:Float = 1) {
+		if (curStage.getCharacter(name) != null) {
+			removeChar(name);
+		}
+		
+		var extraChar:BaseCharacter;
+		
+		extraChar = CharacterDataParser.fetchCharacter(name);
+		extraChar.zIndex = zIndexCool;
+		
+		curStage.addCharacter(extraChar, type);
+
+		curStage.refresh();
+		trace("hello " + name);
+		
+		curStage.getCharacter(name).x = xChar;
+		curStage.getCharacter(name).y = yChar;
+		
+		curStage.getCharacter(name).scrollFactor.set(xScroll, yScroll);
+	}
+	
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		curStage = PlayState.instance.currentStage; //DO NOT DELETE
+		
+		addChar("ayumu", CharacterType.OTHER, 1546, 800, 400, 1.2, 1.2);
+		super.onCountdownStart(event);
+	}
+}
+
+
+class TomoCharacter extends MultiSparrowCharacter {
+	// just to Test Stuff yknow
+	function new() {
+		super('tomo');
+	}
+	
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (characterType == CharacterType.DAD) {
+			// ignorement
+			if (event.note.kind == "osak") {
+				return;
+			} else {
+				super.onNoteHit(event);
+			}
+		}
+	}
+}
+
+class AyumuCharacter extends SparrowCharacter {
+	function new() {
+		super('ayumu');
+	}
+	
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (characterType == CharacterType.OTHER) {
+			// play anim only if its a Specific Note
+			if (event.note.kind == "osak") {				
+				holdTimer = 0;
+				this.playSingAnimation(event.note.noteData.getDirection(), false);
+				return;
+			}
+		}
+		
+		super.onNoteHit(event);
+	}
+}

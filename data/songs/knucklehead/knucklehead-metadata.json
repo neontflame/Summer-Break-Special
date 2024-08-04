@@ -25,8 +25,7 @@
     "stage": "trainStation",
     "noteStyle": "funkin",
     "ratings": {
-      "easy": 0,
-      "normal": 0
+      "normal": 8
     },
     "previewStart": 0,
     "previewEnd": 0
