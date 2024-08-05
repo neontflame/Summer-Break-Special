@@ -1,6 +1,6 @@
 {
-	"title":"Vs. Tomo - SUMMER BREAK SPECIAL",
-	"description":"We interrupt your Home Inspection to bring you Rap Battling With A Blue-Haired Pipsqueak.",
+	"title":"SUMMER BREAK SPECIAL",
+	"description":"Rap Inspections?",
 	"contributors": [
 		{
 		"name": "neontflame",
@@ -8,12 +8,22 @@
 		"url": "https://twitter.com/NeonThFl/"
 		},
 		{
+		"name": "THEINDIGO173",
+		"role": "Music Assistance",
+		"url": "https://twitter.com/THEINDIGO1"
+		},
+		{
 		"name": "Dex Dousky",
 		"role": "Music Assistance",
 		"url": "https://twitter.com/Dex_Dousky"
+		},
+		{
+		"name": "SketcherSquared",
+		"role": "Background Art",
+		"url": "https://twitter.com/SketcherSquared"
 		}
 	],
 	"api_version":"0.1.0",
-	"mod_version":"0.1.0",
+	"mod_version":"1.0.0",
 	"license":"Apache 2.0"
 }
