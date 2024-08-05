@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="takinoMisses.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tomo miss left0000" x="0" y="0" width="416" height="501" frameX="-1" frameY="-17" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0001" x="416" y="0" width="416" height="518" frameX="0" frameY="0" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0002" x="416" y="0" width="416" height="518" frameX="0" frameY="0" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0003" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0004" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0005" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0006" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0007" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0008" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0009" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0010" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0011" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0012" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss left0013" x="832" y="0" width="416" height="515" frameX="0" frameY="-3" frameWidth="417" frameHeight="518"/>
+	<SubTexture name="tomo miss right0000" x="1248" y="0" width="370" height="504" frameX="0" frameY="-23" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0001" x="1618" y="0" width="368" height="527" frameX="-2" frameY="0" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0002" x="1618" y="0" width="368" height="527" frameX="-2" frameY="0" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0003" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0004" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0005" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0006" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0007" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0008" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0009" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0010" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0011" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0012" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss right0013" x="0" y="527" width="368" height="525" frameX="-2" frameY="-2" frameWidth="370" frameHeight="527"/>
+	<SubTexture name="tomo miss up0000" x="368" y="527" width="339" height="562" frameX="0" frameY="-35" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0001" x="707" y="527" width="339" height="597"/>
+	<SubTexture name="tomo miss up0002" x="707" y="527" width="339" height="597"/>
+	<SubTexture name="tomo miss up0003" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0004" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0005" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0006" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0007" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0008" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0009" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0010" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0011" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0012" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+	<SubTexture name="tomo miss up0013" x="1046" y="527" width="339" height="593" frameX="0" frameY="-4" frameWidth="339" frameHeight="597"/>
+</TextureAtlas>

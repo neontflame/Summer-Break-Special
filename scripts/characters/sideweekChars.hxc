@@ -1,0 +1,57 @@
+import funkin.play.PlayState;
+import funkin.modding.module.ModuleHandler;
+
+//CHAR SHIT
+import funkin.play.character.BaseCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.character.SparrowCharacter; 
+import funkin.play.character.MultiSparrowCharacter; //this is for the specific character
+
+
+class TomoCharacter extends MultiSparrowCharacter {
+	// just to Test Stuff yknow
+	var animSet:Int = 0;
+	var animSetTypes:Array<String> = ["", "peeved", "miss"];
+	
+	function new() {
+		super('tomo');
+	}
+	
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (!event.note.noteData.getMustHitNote() && characterType == CharacterType.DAD) {
+			// ignorement
+			if (event.note.kind == "osak") {
+				return;
+			} else {
+				if (animSet != 0) {
+					holdTimer = 0;
+					this.playSingAnimation(event.note.noteData.getDirection(), false, animSetTypes[animSet]);
+					return;
+				}
+			}
+		}
+
+		super.onNoteHit(event);
+	}
+}
+
+class AyumuCharacter extends SparrowCharacter {
+	function new() {
+		super('ayumu');
+	}
+	
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (characterType == CharacterType.OTHER) {
+			// play anim only if its a Specific Note
+			if (event.note.kind == "osak") {				
+				holdTimer = 0;
+				this.playSingAnimation(event.note.noteData.getDirection(), false);
+				return;
+			}
+		}
+		
+		super.onNoteHit(event);
+	}
+}

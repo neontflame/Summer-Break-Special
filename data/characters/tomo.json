@@ -55,22 +55,6 @@
 		{
 			"flipY": false,
 			"offsets": [
-				0,
-				0
-			],
-			"frameRate": 24,
-			"prefix": "tomo idle",
-			"frameIndices": [
-				11,
-				12
-			],
-			"flipX": false,
-			"name": "idle-hold",
-			"looped": true
-		},
-		{
-			"flipY": false,
-			"offsets": [
 				55,
 				-1
 			],
@@ -79,21 +63,6 @@
 			"flipX": false,
 			"looped": false,
 			"name": "singLEFT"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				55,
-				-1
-			],
-			"frameRate": 24,
-			"prefix": "tomo left",
-			"frameIndices": [
-				5
-			],
-			"flipX": false,
-			"name": "singLEFT-hold",
-			"looped": true
 		},
 		{
 			"flipY": false,
@@ -110,21 +79,6 @@
 		{
 			"flipY": false,
 			"offsets": [
-				6,
-				-50
-			],
-			"frameRate": 24,
-			"prefix": "tomo down",
-			"frameIndices": [
-				5
-			],
-			"flipX": false,
-			"name": "singDOWN-hold",
-			"looped": true
-		},
-		{
-			"flipY": false,
-			"offsets": [
 				-6,
 				59
 			],
@@ -133,21 +87,6 @@
 			"flipX": false,
 			"looped": false,
 			"name": "singUP"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-6,
-				59
-			],
-			"frameRate": 24,
-			"prefix": "tomo up",
-			"frameIndices": [
-				5
-			],
-			"flipX": false,
-			"name": "singUP-hold",
-			"looped": true
 		},
 		{
 			"flipY": false,
@@ -164,17 +103,93 @@
 		{
 			"flipY": false,
 			"offsets": [
+				55,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "peeved tomo left",
+			"assetPath": "characters/tomoAnims/takinoPeeved",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-peeved"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				5,
+				-50
+			],
+			"frameRate": 24,
+			"prefix": "peeved tomo down",
+			"assetPath": "characters/tomoAnims/takinoPeeved",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-peeved"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-6,
+				59
+			],
+			"frameRate": 24,
+			"prefix": "peeved tomo up",
+			"assetPath": "characters/tomoAnims/takinoPeeved",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-peeved"
+		},
+		{
+			"flipY": false,
+			"offsets": [
 				-90,
 				-1
 			],
 			"frameRate": 24,
-			"prefix": "tomo right",
-			"frameIndices": [
-				5
-			],
+			"prefix": "peeved tomo right",
+			"assetPath": "characters/tomoAnims/takinoPeeved",
 			"flipX": false,
-			"name": "singRIGHT-hold",
-			"looped": true
+			"looped": false,
+			"name": "singRIGHT-peeved"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				55,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "tomo miss left",
+			"assetPath": "characters/tomoAnims/takinoMisses",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-miss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-6,
+				59
+			],
+			"frameRate": 24,
+			"prefix": "tomo miss up",
+			"assetPath": "characters/tomoAnims/takinoMisses",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-miss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-90,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "tomo miss right",
+			"assetPath": "characters/tomoAnims/takinoMisses",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-miss"
 		},
 		{
 			"flipY": false,
@@ -184,7 +199,7 @@
 			],
 			"frameRate": 24,
 			"prefix": "tomo DudeIGetIt",
-			"assetPath": "characters/takinoDialogue",
+			"assetPath": "characters/tomoAnims/takinoDialogue",
 			"flipX": false,
 			"looped": false,
 			"name": "dude"

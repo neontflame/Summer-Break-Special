@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="takinoPeeved.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="peeved tomo down0000" x="0" y="0" width="413" height="443" frameX="0" frameY="-8" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0001" x="0" y="0" width="413" height="443" frameX="0" frameY="-8" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0002" x="413" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0003" x="413" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0004" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0005" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0006" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0007" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0008" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0009" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0010" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0011" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0012" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo down0013" x="829" y="0" width="416" height="451" frameX="-3" frameY="0" frameWidth="419" frameHeight="451"/>
+	<SubTexture name="peeved tomo left0000" x="1245" y="0" width="416" height="501" frameX="0" frameY="-3" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0001" x="1245" y="0" width="416" height="501" frameX="0" frameY="-3" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0002" x="0" y="501" width="416" height="504" frameX="-5" frameY="0" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0003" x="0" y="501" width="416" height="504" frameX="-5" frameY="0" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0004" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0005" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0006" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0007" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0008" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0009" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0010" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0011" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0012" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo left0013" x="416" y="501" width="415" height="503" frameX="-6" frameY="-1" frameWidth="421" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0000" x="831" y="501" width="370" height="504" frameX="-11" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0001" x="831" y="501" width="370" height="504" frameX="-11" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0002" x="1201" y="501" width="371" height="503" frameX="-1" frameY="-1" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0003" x="1201" y="501" width="371" height="503" frameX="-1" frameY="-1" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0004" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0005" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0006" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0007" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0008" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0009" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0010" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0011" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0012" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo right0013" x="1572" y="501" width="372" height="504" frameX="0" frameY="0" frameWidth="381" frameHeight="504"/>
+	<SubTexture name="peeved tomo up0000" x="0" y="1005" width="339" height="562" frameX="-3" frameY="0" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0001" x="0" y="1005" width="339" height="562" frameX="-3" frameY="0" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0002" x="339" y="1005" width="339" height="551" frameX="-1" frameY="-10" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0003" x="339" y="1005" width="339" height="551" frameX="-1" frameY="-10" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0004" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0005" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0006" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0007" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0008" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0009" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0010" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0011" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0012" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+	<SubTexture name="peeved tomo up0013" x="678" y="1005" width="342" height="549" frameX="0" frameY="-12" frameWidth="342" frameHeight="562"/>
+</TextureAtlas>

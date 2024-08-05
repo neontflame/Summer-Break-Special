@@ -5,6 +5,8 @@ import funkin.ui.credits.CreditsState;
 import funkin.modding.base.ScriptedMusicBeatState;
 import funkin.modding.module.Module;
 
+import funkin.Highscore;
+
 class SBSMenuRedirector extends Module
 {
 	public function new()

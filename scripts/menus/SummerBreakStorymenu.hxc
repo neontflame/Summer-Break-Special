@@ -265,7 +265,23 @@ class SummerBreakStorymenu extends MusicBeatState
 		PlayStatePlaylist.campaignDifficulty = "normal";
 
 		// Highscore.talliesLevel = new funkin.Highscore.Tallies();
-
+		// i swear to god if this works
+		// IT WORKED I CAN NOW DIE HAPPY
+		// or yknow. go on living happy. what a strange fucking expression
+		Highscore.talliesLevel = {
+			combo: 0,
+			missed: 0,
+			shit: 0,
+			bad: 0,
+			good: 0,
+			sick: 0,
+			totalNotes: 0,
+			totalNotesHit: 0,
+			maxCombo: 0,
+			score: 0,
+			isNewHighscore: false
+		};
+	  
 		new FlxTimer().start(1, function(tmr:FlxTimer) {
 			FlxTransitionableState.skipNextTransIn = false;
 			FlxTransitionableState.skipNextTransOut = false;

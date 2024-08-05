@@ -1,0 +1,38 @@
+import funkin.play.PlayState;
+import funkin.play.event.SongEvent;
+
+class TomoAnimSetShits extends SongEvent {
+	public override function handleEvent(data) {
+		if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+		
+    	changeSet(Std.parseInt(data.value.suffix));
+	}
+	
+	function changeSet(suffix:Int = 0) {
+		PlayState.instance.currentStage.getOpponent().scriptSet("animSet", suffix);
+	}
+	
+	public function getEventSchema() {
+	  return [
+		{
+			name: "suffix",
+			title: "Suffix",
+			defaultValue: 0,
+			type: "enum",
+			keys: [
+			    "Normal" => 0,
+			    "Peeved" => 1,
+			    "Missing (no down anim)" => 2
+			]
+		}
+	];
+  }
+
+	public function getTitle() {
+		return "Change Tomo animation set";
+	}
+	
+	public function new() {
+		super('TomoAnimSetShits');
+	}
+}

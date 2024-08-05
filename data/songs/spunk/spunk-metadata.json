@@ -1,7 +1,9 @@
 {
-  "version": "2.2.2",
-  "songName": "jumpman",
-  "artist": "RedTV53",
+  "version": "2.2.3",
+  "songName": "Spunk",
+  "artist": "neontflame, Dex Dousky",
+  "charter": "neontflame",
+  "divisions": 96,
   "looped": false,
   "offsets": {
     "instrumental": 0,
@@ -20,21 +22,21 @@
       "instrumental": "",
       "altInstrumentals": [      ]
     },
-    "stage": "mainStage",
-    "noteStyle": "item",
+    "stage": "trainStation",
+    "noteStyle": "funkin",
     "ratings": {
-      "normal": 0
+      "normal": 10
     },
     "previewStart": 0,
     "previewEnd": 0
   },
-  "generatedBy": "Chart Editor Import (FNF Legacy)",
+  "generatedBy": "Friday Night Funkin' - v0.4.1",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 174,
+      "bpm": 188,
       "n": 4,
       "d": 4,
       "bt": [
