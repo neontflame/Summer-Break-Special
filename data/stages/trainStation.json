@@ -3,8 +3,8 @@
     {
       "danceEvery": 0,
       "zIndex": 10,
-      "position": [-300, -300],
-      "scale": [1, 1],
+      "position": [-400, -400],
+      "scale": [2, 2],
       "animType": "sparrow",
       "name": "sky",
       "isPixel": false,
@@ -38,6 +38,30 @@
     },
     {
       "danceEvery": 0,
+      "zIndex": 14,
+      "position": [109, 427],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "cameoNpcs",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/npcs1",
+      "scroll": [0.8, 0.875],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 13,
+      "position": [131, 583],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "cameoShaders",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/npcShaders1",
+      "scroll": [0.8, 0.875],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
       "zIndex": 20,
       "position": [495, -20],
       "scale": [1, 1],
@@ -46,6 +70,30 @@
       "isPixel": false,
       "assetPath": "backgrounds/trainStation/edstacao",
       "scroll": [0.8, 0.975],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 21,
+      "position": [722, 393],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "genericNpcs",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/npcs2",
+      "scroll": [0.825, 0.979],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [732, 497],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "genericShade",
+      "isPixel": false,
+      "assetPath": "backgrounds/trainStation/npcShaders2",
+      "scroll": [0.815, 0.979],
       "animations": []
     },
     {

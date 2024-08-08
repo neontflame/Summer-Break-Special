@@ -34,20 +34,22 @@ class SummerBreakCreditsMenu extends MusicBeatState
 	var pins:FlxSprite;
 	var star:FlxSprite;
 	
-	var devNames:Array<String> = [	'NeonTFlame', 'TheIndigo173', 'SketcherSquared', 'Dex Dousky'];
+	var devNames:Array<String> = [	'NeonTFlame', 'TheIndigo173', 'SketcherSquared', 'Dex Dousky', 'Special Thanks'];
 	var devRoles:Array<String> = [	'art, animation, coding, music, charting', 
 									'music', 
 									'background art', 
-									'music assistance'
+									'music assistance',
+									'being cool'
 									];
 	var devQuotes:Array<String> = [	'dunpan dunpan dunpanpan\nbring forth the floodwater from th-wait wrong anime. shit', 
 									'support azuhorrors and watch the deep void', 
 									'she azu on my manga till i DAIOH', 
 									'"baap beep, biip boop" they say'
+									"OrangeSymbol - made osaka chromatic used in spunk, very cool !!! | Kiyohiko Azuma - created azumanga daioh! | Azufunkin' and Azuhorrors teams - cool people all around!!!"
 									];
 	
-	var xPosCool:Array<Int> = [105, 383, 678, 952];
-	var yPosCool:Array<Int> = [179, 269, 197, 279];
+	var xPosCool:Array<Int> = [105, 383, 678, 952, 584];
+	var yPosCool:Array<Int> = [179, 269, 197, 279, 474];
 	
 	var devName:FlxText;
 	var devRole:FlxText;
@@ -128,7 +130,8 @@ class SummerBreakCreditsMenu extends MusicBeatState
 		star.x = MathUtil.coolLerp(star.x, xPosCool[curDeveloper], 0.3);
 		star.y = MathUtil.coolLerp(star.y, yPosCool[curDeveloper], 0.3);
 		
-		FlxG.camera.scroll.x = MathUtil.coolLerp(FlxG.camera.scroll.x, 15 * curDeveloper, 0.05);
+		FlxG.camera.scroll.x = MathUtil.coolLerp(FlxG.camera.scroll.x, xPosCool[curDeveloper] * 0.05, 0.05);
+		FlxG.camera.scroll.y = MathUtil.coolLerp(FlxG.camera.scroll.y, yPosCool[curDeveloper] * 0.05, 0.05);
 		
 		devName.text = devNames[curDeveloper];
 		devRole.text = devRoles[curDeveloper];

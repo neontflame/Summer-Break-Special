@@ -13,6 +13,16 @@ class TrainStationStage extends Stage
 	{
 		super.buildStage();
 		
+		getNamedProp('cameoShaders').blend = 9;
+		getNamedProp('genericShade').blend = 9;
+		getNamedProp('genericShade').alpha = 0.5;
+		
+		if (PlayState.instance.currentSong.id.toLowerCase() == "tomo")
+		{
+			getNamedProp('cameoNpcs').visible = false;
+			getNamedProp('cameoShaders').visible = false;
+		}
+		
 		if (PlayState.instance.currentSong.id.toLowerCase() != "spunk")
 		{
 			getNamedProp('yomi').visible = false;
