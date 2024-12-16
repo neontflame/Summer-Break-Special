@@ -123,43 +123,43 @@
       "name": "look",
       "prefix": "BF lookie",
       "assetPath": "characters/bfLookie",
-      "offsets": [-6, 4]
+      "offsets": [-5, 0]
     },
     {
       "name": "idle-look",
       "prefix": "BF Look idle",
       "assetPath": "characters/bfLookie",
-      "offsets": [-7, 0]
+      "offsets": [-17, -5]
     },
     {
       "name": "singLEFT-look",
       "prefix": "BF LOOKING NOTE LEFT",
       "assetPath": "characters/bfLookie",
       "offsets": [
-				1,
-				-6
+				-39,
+				-11
 			]
     },
     {
       "name": "singDOWN-look",
       "prefix": "BF LOOKING NOTE DOWN",
       "assetPath": "characters/bfLookie",
-      "offsets": [-8,
-				-49]
+      "offsets": [-34,
+				-56]
     },
     {
       "name": "singUP-look",
       "prefix": "BF LOOKING NOTE UP",
       "assetPath": "characters/bfLookie",
-      "offsets": [-37,
-				20]
+      "offsets": [-33,
+				23]
     },
     {
       "name": "singRIGHT-look",
       "prefix": "BF LOOKING NOTE RIGHT",
       "assetPath": "characters/bfLookie",
-      "offsets": [-39,
-				-8]
+      "offsets": [-45,
+				-9]
     }
   ]
 }

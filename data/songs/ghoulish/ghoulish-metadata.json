@@ -1,7 +1,7 @@
 {
   "version": "2.2.3",
   "songName": "Ghoulish",
-  "artist": "TheIndigo173",
+  "artist": "THEINDIGO173",
   "charter": "neontflame",
   "divisions": 96,
   "looped": false,
@@ -27,8 +27,9 @@
     "ratings": {
       "normal": 5
     },
-    "previewStart": 0,
-    "previewEnd": 0
+    "album": "sbs",
+    "previewStart": 23270,
+    "previewEnd": 46540
   },
   "generatedBy": "Friday Night Funkin' - v0.4.1",
   "timeFormat": "ms",

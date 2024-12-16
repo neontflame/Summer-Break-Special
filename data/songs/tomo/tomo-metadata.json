@@ -16,7 +16,7 @@
       "normal"
     ],
     "characters": {
-      "player": "bf",
+      "player": "bf-sideweek",
       "girlfriend": "gf",
       "opponent": "tomo",
       "instrumental": "",
@@ -27,6 +27,7 @@
     "ratings": {
       "normal": 6
     },
+    "album": "sbs",
     "previewStart": 0,
     "previewEnd": 0
   },

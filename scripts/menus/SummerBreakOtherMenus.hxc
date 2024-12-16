@@ -12,6 +12,7 @@ import funkin.Conductor;
 import funkin.Paths;
 import funkin.graphics.FunkinSprite;
 
+import funkin.util.Constants;
 import funkin.util.SortUtil;
 
 import funkin.modding.module.Module;
@@ -35,6 +36,7 @@ class SummerBreakMainmenu extends Module
 	// i know this isnt a custom state shhhhhh
 	var coolXpos:Array<Int> = [38, 357, 614, 883];
 	var coolYpos:Array<Int> = [49, 197, 359, 510];
+	var verCheck:Array<String> = ["v0.5.0"];
 	
 	public function new()
 	{
@@ -62,7 +64,7 @@ class SummerBreakMainmenu extends Module
 			FlxG.cameras.add(camFront, false);
 			FlxG.cameras.setDefaultDrawTarget(camDefault, true);
 			*/
-			azuBg = new FlxBackdrop(Paths.image('mainmenu/menubg')); 
+			azuBg = new FlxBackdrop(Paths.image('mainmenu/menubgSmall')); 
 			azuBg.updateHitbox(); 
 			azuBg.scrollFactor.set(0, 0); 
 			azuBg.alpha = 1;
@@ -95,7 +97,7 @@ class SummerBreakMainmenu extends Module
 	 */
 	function repositionMenuItems(menuItems:AtlasMenuList)
 	{
-		menuItems.remove(menuItems.members[2], true);
+		if (!verCheck.contains(Constants.VERSION)) menuItems.remove(menuItems.members[2], true);
 		
 		// shouldnt have been necessary but yknow. for Accuracy
 		// it's not gonna be that easy
@@ -111,11 +113,13 @@ class SummerBreakMainmenu extends Module
 		for (i in 0...menuItems.length)
 		{
 			var menuItem = menuItems.members[i];
-			menuItem.x = coolXpos[i] + 180;
-			menuItem.y = coolYpos[i] + 60;
-			menuItem.alpha = 0;
-			
-			menuItem.scrollFactor.set(0, 0);
+			if (menuItem != null) {
+				menuItem.x = coolXpos[i] + 180;
+				menuItem.y = coolYpos[i] + 60;
+				menuItem.alpha = 0;
+				
+				menuItem.scrollFactor.set(0, 0);
+			}
 		}
 	}
 	
@@ -230,7 +234,7 @@ class SummerBreakOptions extends Module
 	{
 		if (Std.isOfType(event.targetState, OptionsState))
 		{
-			azuBgToo = new FlxBackdrop(Paths.image('mainmenu/menubg')); 
+			azuBgToo = new FlxBackdrop(Paths.image('mainmenu/menubgSmall')); 
 			azuBgToo.updateHitbox(); 
 			azuBgToo.scrollFactor.set(0, 0); 
 			azuBgToo.alpha = 1;

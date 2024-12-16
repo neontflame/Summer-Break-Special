@@ -5,7 +5,7 @@
 		{
 		"name": "neontflame",
 		"role": "Coding, Art, Music, Charting",
-		"url": "https://twitter.com/NeonThFl/"
+		"url": "https://twitter.com/NeonThFl"
 		},
 		{
 		"name": "THEINDIGO173",
@@ -15,15 +15,20 @@
 		{
 		"name": "Dex Dousky",
 		"role": "Music Assistance",
-		"url": "https://twitter.com/Dex_Dousky"
+		"url": "https://dexdousky.bsky.social/"
 		},
 		{
 		"name": "SketcherSquared",
 		"role": "Background Art",
 		"url": "https://twitter.com/SketcherSquared"
+		},
+		{
+		"name": "OrangeSymbol",
+		"role": "Osaka Chromatic",
+		"url": "https://twitter.com/orangesymbol"
 		}
 	],
-	"api_version":"0.1.0",
-	"mod_version":"1.0.0",
+	"api_version":"0.5.0",
+	"mod_version":"1.1.0",
 	"license":"Apache 2.0"
 }

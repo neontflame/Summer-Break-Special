@@ -34,22 +34,24 @@ class SummerBreakCreditsMenu extends MusicBeatState
 	var pins:FlxSprite;
 	var star:FlxSprite;
 	
-	var devNames:Array<String> = [	'NeonTFlame', 'TheIndigo173', 'SketcherSquared', 'Dex Dousky', 'Special Thanks'];
+	var devNames:Array<String> = [	'NeonTFlame', 'THEINDIGO173', 'SketcherSquared', 'Dex Dousky', 'OrangeSymbol', 'Special Thanks'];
 	var devRoles:Array<String> = [	'art, animation, coding, music, charting', 
 									'music', 
 									'background art', 
 									'music assistance',
+									'osaka chromatic on spunk, feedback',
 									'being cool'
 									];
 	var devQuotes:Array<String> = [	'dunpan dunpan dunpanpan\nbring forth the floodwater from th-wait wrong anime. shit', 
-									'support azuhorrors and watch the deep void', 
+									'follow yumekomo on twitter', 
 									'she azu on my manga till i DAIOH', 
-									'"baap beep, biip boop" they say'
-									"OrangeSymbol - made osaka chromatic used in spunk, very cool !!! | Kiyohiko Azuma - created azumanga daioh! | Azufunkin' and Azuhorrors teams - cool people all around!!!"
+									'"baap beep, biip boop" they say',
+									'if mario then only bros\nhttps://tenor.com/view/fire-writing-gif-24533171',
+									"Kiyohiko Azuma - created azumanga daioh! | Azufunkin' and Azuhorrors teams - cool people all around!!!"
 									];
 	
-	var xPosCool:Array<Int> = [105, 383, 678, 952, 584];
-	var yPosCool:Array<Int> = [179, 269, 197, 279, 474];
+	var xPosCool:Array<Int> = [105, 367, 658, 922, 367, 664];
+	var yPosCool:Array<Int> = [179, 122, 143, 212, 374, 398];
 	
 	var devName:FlxText;
 	var devRole:FlxText;
@@ -79,7 +81,7 @@ class SummerBreakCreditsMenu extends MusicBeatState
 		bg.updateHitbox(); 
 		bg.scrollFactor.set(1, 1); 
 		
-		pins = new FlxSprite(89, 174).loadGraphic(Paths.image('credits/devPins')); 
+		pins = new FlxSprite(89, 107).loadGraphic(Paths.image('credits/devPins')); 
 		pins.updateHitbox(); 
 		pins.scrollFactor.set(1, 1);
 		

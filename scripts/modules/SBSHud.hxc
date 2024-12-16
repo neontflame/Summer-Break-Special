@@ -1,0 +1,543 @@
+import flixel.FlxG;
+import flixel.math.FlxMath;
+
+import funkin.modding.module.Module;
+
+import funkin.play.event.SongEvent;
+
+// scoretext shit
+import flixel.text.FlxText;
+import flixel.text.FlxTextBorderStyle;
+import flixel.FlxSprite;
+
+import funkin.Paths;
+
+import funkin.play.PlayState;
+import funkin.play.components.HealthIcon;
+
+import funkin.Conductor;
+import funkin.Highscore;
+import funkin.play.scoring.Scoring;
+import funkin.util.Constants;
+
+class SBSHud extends Module
+{
+	/*
+		SUMMER BREAK SPECIAL ver. 2.0 HUD
+		MADE BY neontflame, GIVE CREDIT IF USED IN ANOTHER MOD!!
+	*/
+	
+	// SET THIS VARIABLE TO TRUE IF YOU WANNA APPLY THE HUD TO THE WHOLE GAME
+	var applyGlobally:Bool = false;
+	
+	// IGNORE THESE! YOU DO NOT NEED TO CHANGE ANYTHING FROM THIS POINT FORWARD
+	var isPsyched:Bool = false;
+	var isPs:Bool = false;
+	var isMinimal:Bool = false;
+	var isHudCreated:Bool = false;
+	var coolScoreTxt:FlxText;
+	var watermark:FlxText;
+	
+	var play;
+	var scoreText;
+	
+	var iconP3:HealthIcon;
+	var iconP3Active:Bool = false;
+	
+	var hbarEmpty:FlxSprite;
+	var hbarFill:FlxSprite;
+	
+	var songlist:Array<String> = [	"Tomo", "Knucklehead", "Spunk", // SUMMER BREAK SPECIAL
+									"Ghoulish", // OUT-OF-SEASON SCARE
+									"Reckless", "Sprint", "Hallucination", // AFTERNOONS (still gotta think of a good caption lmfao
+									"Enjoyable Day", "Smallfry" // FREEPLAY SONGS THE AWESOME
+								];
+	var isSbs:Bool = false;
+	
+	public function new()
+	{
+		super('sbs-hud');
+	}
+
+	override function onStateChangeEnd(event:StateChangeScriptEvent)
+	{
+		if (event.targetState == PlayState.instance)
+		{
+			isPs = true;
+			isMinimal = PlayState.instance.isMinimalMode;
+			
+			isSbs = (applyGlobally ? true : songlist.contains(PlayState.instance.currentChart.songName));
+					
+			play = PlayState.instance;
+			scoreText = play.scoreText;
+			
+			createHudElements();
+		} else {
+			isHudCreated = isPs = false;
+		}
+		
+		super.onStateChangeEnd(event);
+	}
+
+	override function onSubStateOpenEnd(event:SubStateScriptEvent)
+	{
+		if (event.targetState == PlayState.instance)
+		{
+			isPs = true;
+			isMinimal = PlayState.instance.isMinimalMode;
+			
+			isSbs = (applyGlobally ? true : songlist.contains(PlayState.instance.currentChart.songName));
+			
+			play = PlayState.instance;
+			scoreText = play.scoreText;
+			
+			createHudElements();
+		} else {
+			isHudCreated = isPs = false;
+		}
+		
+		super.onSubStateOpenEnd(event);
+	}
+	
+	function onUpdate(event:ScriptEvent):Void
+	{
+		if (isHudCreated) 
+		{
+			updateHudText(isPsyched);
+			
+			if (iconP3 != null && !isMinimal) 
+			{
+				iconP3.autoUpdate = false;
+				iconP3.visible = iconP3Active;
+				
+				if (hbarEmpty != null) hbarEmpty.visible = iconP3Active;
+				if (hbarFill != null) hbarFill.visible = iconP3Active;
+		
+				if (iconP3Active) {
+					hbarFill.scale.x = play.health / 2;
+					hbarFill.updateHitbox();
+					hbarFill.x = play.healthBar.x + ((play.healthBar.width - hbarFill.width) / 2);
+					
+					play.iconP1.autoUpdate = false;
+					play.iconP2.autoUpdate = false;
+					
+					updateIconPosition(play.iconP1, 0, true);
+					updateIconPosition(play.iconP2, 1, true);
+					updateIconPosition(iconP3, 2, true);
+				} else {
+					play.iconP1.autoUpdate = true;
+					play.iconP2.autoUpdate = true;
+					updateIconPosition(iconP3, 1, false);
+				}
+			}
+		}
+		
+		super.onUpdate(event);
+	}
+	
+	override function onStepHit(event) {
+		if (isPs && isHudCreated) {
+			if (play != null) {
+				if (iconP3 != null && iconP3Active) updateIconStepHit(iconP3, Std.int(Conductor.instance.currentStep), 0.05);
+			}
+		}
+		
+		super.onStepHit(event);
+	}
+	
+	override function onSongRetry(event) {
+		super.onSongRetry(event);
+		
+		isHudCreated = isPs = true;
+		getPsyched(false);
+		updateHudText(isPsyched);
+		iconP3Active = false;
+	}
+  
+	function createHudElements() 
+	{
+		if (isSbs) {
+			createHudText();
+			createHbar();
+			
+			if (!isMinimal)
+				createIcon();
+			
+			play.refresh();
+			isHudCreated = true;
+		}
+	}
+	
+	function createHudText() {
+		coolScoreTxt = new FlxText(0, scoreText.y + 10, 0, 'evil as fuk...', 20);
+		coolScoreTxt.setFormat(Paths.font('augie.ttf'), 20, 0xFFFFFFFF, 'left', FlxTextBorderStyle.OUTLINE, 0xC5000000);
+		coolScoreTxt.borderSize = 1.5;
+		coolScoreTxt.scrollFactor.set(0, 0);
+		
+		coolScoreTxt.cameras = [PlayState.instance.camHUD];
+		coolScoreTxt.zIndex = 860;
+		
+		play.add(coolScoreTxt);
+		
+		var songName = PlayState.instance.currentChart.songName;
+		
+		watermark = new FlxText(16, FlxG.height - 30, 0, songName + ' - ' + (songlist.contains(songName) ? 'SBS ver. 1.1' : 'FNF ' + Constants.VERSION), 16);
+		watermark.setFormat(Paths.font('augie.ttf'), 16, 0xFFFFFFFF, 'left', FlxTextBorderStyle.OUTLINE, 0xC5000000);
+		watermark.borderSize = 1.5;
+		watermark.scrollFactor.set(0, 0);
+		
+		watermark.cameras = [PlayState.instance.camHUD];
+		watermark.zIndex = 860;
+		
+		play.add(watermark);
+	}
+	
+	function getPsyched(coolbool:Bool = null) {
+		isPsyched = (coolbool != null ? coolbool : !isPsyched);
+		var playerStrumline:FlxSprite = PlayState.instance.playerStrumline;
+		var opponentStrumline:FlxSprite = PlayState.instance.opponentStrumline;
+		
+		var plyX = FlxG.width / 2 + 48;
+		var oppX = 48;
+		
+		if (isPsyched) {
+			coolScoreTxt.setFormat(Paths.font('vcr.ttf'), 20, 0xFFFFFFFF, 'left', FlxTextBorderStyle.OUTLINE, 0xFF000000);
+			coolScoreTxt.borderSize = 1.25;
+			coolScoreTxt.y = PlayState.instance.healthBarBG.y + 36;
+			watermark.visible = false;
+			
+			playerStrumline.x = plyX + 50;
+			opponentStrumline.x = oppX + 50;
+		} else {
+			coolScoreTxt.setFormat(Paths.font('augie.ttf'), 20, 0xFFFFFFFF, 'left', FlxTextBorderStyle.OUTLINE, 0xC5000000);
+			coolScoreTxt.borderSize = 1.5;
+			coolScoreTxt.y = scoreText.y + 10;
+			watermark.visible = true;
+			
+			playerStrumline.x = plyX;
+			opponentStrumline.x = oppX;
+		}
+		updateHudText(isPsyched);
+	}
+	
+	public function updateHudText(psychable:Bool = false)
+	{
+		trace("update hud waah !");
+		
+		var acc:Float = (Highscore.tallies.sick + Highscore.tallies.good) / (Highscore.tallies.totalNotesHit + Highscore.tallies.missed) * 100;
+		var comboBreaks:Int = (Highscore.tallies.bad + Highscore.tallies.shit + Highscore.tallies.missed);
+		// play.iconP2.x = play.healthBarBG.x - 150;
+		// play.iconP1.x = play.healthBarBG.x + play.healthBarBG.width;
+		
+		if (play.isBotPlayMode) {
+			coolScoreTxt.text = "Autoplay enabled";
+		} else {
+			if (psychable) {
+			coolScoreTxt.text = "Score: " + play.songScore
+								+ " | Misses: " + Highscore.tallies.missed
+								+ " | Rating: "
+								+ (Highscore.tallies.totalNotesHit > 0 ? calculateRank() + " (" + truncate(acc, 2) + "%) - " + calculateFC() : "?")
+								;
+			} else {
+			coolScoreTxt.text = "Score: " + formatNumber(play.songScore)
+								+ " - Accuracy: " + truncate(acc, 2) + "%"							
+								// + (comboBreaks > 0 ? " - Combo Breaks: " + comboBreaks : "")
+								+ (Highscore.tallies.totalNotesHit > 0 ? " - " + calculateRank() : "")
+								;
+			}
+		}
+		
+		coolScoreTxt.screenCenter(0x01);
+		//scoreText.x = FlxG.width / 2 - scoreText.width / 2;
+		scoreText.visible = false;
+	}
+	
+	function createHbar() {
+		// default healthbar
+		play.healthBar.createImageFilledBar(Paths.image('healthBarFilled'), 0xFFFF0000);
+		play.healthBar.createImageEmptyBar(Paths.image('healthBarEmpty'), 0xFF00FF00);
+		
+		play.healthBar.zIndex = play.healthBarBG.zIndex - 3;
+		
+		play.healthBarBG.loadGraphic(Paths.image('healthBarSBS')); 
+		
+		// 3-icon healthbar
+		hbarEmpty = new FlxSprite(play.healthBarBG.x + 4, play.healthBarBG.y + 4).loadGraphic(Paths.image('healthBarEmpty')); 
+		hbarEmpty.updateHitbox(); 
+		hbarEmpty.scrollFactor.set(0, 0); 
+		hbarEmpty.zIndex = play.healthBarBG.zIndex - 2;
+		hbarEmpty.cameras = [play.camHUD];
+		
+		hbarFill = new FlxSprite(play.healthBarBG.x + 4, play.healthBarBG.y + 4).loadGraphic(Paths.image('healthBarFilled')); 
+		hbarFill.updateHitbox(); 
+		hbarFill.scrollFactor.set(0, 0); 
+		hbarFill.zIndex = play.healthBarBG.zIndex - 1;
+		hbarFill.cameras = [play.camHUD];
+		
+		hbarEmpty.visible = iconP3Active;
+		hbarFill.visible = iconP3Active;
+		
+		play.add(hbarEmpty); 
+		play.add(hbarFill); 
+	}
+	
+	/*
+	 * ICON SHIT WOOOOOOOO
+	 */
+	// the creater
+	function createIcon() {
+		iconP3 = new HealthIcon('dad', 0);
+		iconP3.y = play.healthBar.y - (iconP3.height / 2);
+		iconP3.loadCharacter('pipin');
+		iconP3.zIndex = 852;
+		play.add(iconP3);
+		iconP3.flipX = true;
+		iconP3.visible = iconP3Active;
+		iconP3.cameras = [play.camHUD];
+	}
+	// icon bop
+	function updateIconStepHit(iconInQuestion:HealthIcon, curStep:Int, bopSize:Float):Void {
+		// Make the icons bop.
+		if (iconInQuestion != null && !isMinimal) {
+			if (iconInQuestion.bopEvery != 0 && curStep % iconInQuestion.bopEvery == 0 && iconInQuestion.isLegacyStyle) {
+				// Make the icon increase in size (the update function causes them to lerp back down).
+				if (iconInQuestion.width > iconInQuestion.height) {
+					iconInQuestion.setGraphicSize(Std.int(iconInQuestion.width + (150 * iconInQuestion.size.x * bopSize)), 0);
+				} else {
+					iconInQuestion.setGraphicSize(0, Std.int(iconInQuestion.height + (150 * iconInQuestion.size.y * bopSize)));
+				}
+				// Make the icon twist (the update function causes them to lerp back to normal).
+				iconInQuestion.angle += iconInQuestion.bopAngle * (iconInQuestion.playerId == 0 ? 1 : -1);
+
+				iconInQuestion.updateHitbox();
+
+				// Ensure the icon is positioned correctly after updating the hitbox.
+				iconInQuestion.updatePosition();
+			}
+		}
+	}
+	 // icon pos update
+	function updateIconPosition(iconInQuestion:HealthIcon, id:Int, isThree:Bool) {
+		if (play != null && iconInQuestion != null) {
+			if (isThree) {
+				switch (id) {
+					case 0: // Boyfriend
+						// Update the animation based on the current state.
+						iconInQuestion.updateHealthIcon(play.health);
+						// Update the position to match the health bar.
+						var pos = play.healthBar.x + (play.healthBar.width * 0.5 - (iconInQuestion.width / 2));
+						iconInQuestion.x = pos;
+					case 1: // Dad
+						// Update the animation based on the current state.
+						iconInQuestion.updateHealthIcon(2 - play.health);
+						// Update the position to match the health bar.
+						var pos = play.healthBar.x
+							+ (play.healthBar.width * (FlxMath.remapToRange(play.healthBar.value, 0, 2, 50, 0) * 0.01))
+							- (iconInQuestion.width - 46);
+						iconInQuestion.x = pos;
+					case 2: // The Other Dad
+						// Update the animation based on the current state.
+						iconInQuestion.updateHealthIcon(2 - play.health);
+						// Update the position to match the health bar.
+						var pos = play.healthBar.x + 15
+							+ (play.healthBar.width * (FlxMath.remapToRange(play.healthBar.value, 0, 2, 0, 50) * 0.01))
+							+ (iconInQuestion.width + 86);
+						iconInQuestion.x = FlxMath.lerp(iconInQuestion.x, pos, 0.2);
+				}
+			}
+			else {
+				switch (id) {
+					case 0: // Boyfriend
+						// Update the animation based on the current state.
+						iconInQuestion.updateHealthIcon(play.health);
+						// Update the position to match the health bar.
+						iconInQuestion.x = play.healthBar.x
+							+ (play.healthBar.width * (FlxMath.remapToRange(play.healthBar.value, 0, 2, 100, 0) * 0.01)
+								- 26);
+					case 1: // Dad
+						// Update the animation based on the current state.
+						iconInQuestion.updateHealthIcon(iconInQuestion.MAXIMUM_HEALTH - play.health);
+						// Update the position to match the health bar.
+						iconInQuestion.x = play.healthBar.x
+							+ (play.healthBar.width * (FlxMath.remapToRange(play.healthBar.value, 0, 2, 100, 0) * 0.01))
+							- (iconInQuestion.width - 26);
+				}
+			}
+
+			// Keep the icon centered vertically on the health bar.
+			iconInQuestion.y = play.healthBar.y - (iconInQuestion.height / 2); // - (play.healthBar.height / 2)
+		}
+	}
+	
+	public function onSongEvent(event):Void 
+	{
+		super.onSongEvent(event);
+		
+		if (event.eventData.eventKind == 'ThreeWayHealthbar') {
+			var ev = event.eventData.value;
+			
+			if (Std.int(ev.p3enabled) == 0) iconP3Active = false;
+			if (Std.int(ev.p3enabled) == 1) iconP3Active = true;
+			
+			if (!isMinimal) iconP3.loadCharacter(ev.charInQuestion);
+		}
+		
+		if (event.eventData.eventKind == 'GetPsyched') {
+			var ev = event.eventData.value;
+			
+			if (Std.int(ev.enablement) == 0) getPsyched(false);
+			if (Std.int(ev.enablement) == 1) getPsyched(true);
+			if (Std.int(ev.enablement) == 2) getPsyched(null);
+		}
+	}
+	
+	/**
+		UTILITIES
+	**/
+	
+	// Uses Math.round to fix a floating point number to a set precision.
+	function truncate(number:Float, ?precision:Float = 2):Float
+	{
+		if (!Math.isFinite(number)) number = 0;
+		
+		number *= Math.pow(10, precision);
+		return Math.round(number) / Math.pow(10, precision);
+	}
+
+	// shoutouts to Scoring.hx in the funkin sourcecode
+	function calculateRank() {
+		// we can return null here, meaning that the player hasn't actually played and finished the song (thus has no data)
+		if (Highscore.tallies.totalNotes == 0) return '?';
+		
+		var totalNotes = Highscore.tallies.totalNotesHit + Highscore.tallies.missed;
+		// Perfect (Platinum) is a Sick Full Clear
+		var isPerfectGold = Highscore.tallies.sick == totalNotes;
+		
+		// Grade % (only good and sick), 1.00 is a full combo
+		var grade = (Highscore.tallies.sick + Highscore.tallies.good) / totalNotes;
+		// Clear % (including bad and shit). 1.00 is a full clear but not a full combo
+		var clear = (Highscore.tallies.totalNotesHit) / totalNotes;
+
+		if (grade == 1) {
+			if (isPerfectGold) return 'PERFECT!!!';
+			else return 'Perfect!!';
+		}
+		else if (grade >= 0.9) return 'Excellent!';
+		else if (grade >= 0.8) return 'Great!';
+		else if (grade >= 0.6) return 'Good!';
+		else if (grade < 0.6) return 'Loss...';
+	}
+	
+	function calculateFC() {
+		// we can return null here, meaning that the player hasn't actually played and finished the song (thus has no data)
+		var comboBreaks:Int = (Highscore.tallies.bad + Highscore.tallies.shit + Highscore.tallies.missed);
+		if (Highscore.tallies.totalNotes == 0) return '?';
+		
+		if (comboBreaks == 0) {
+			if (Highscore.tallies.shit > 0 || Highscore.tallies.bad > 0) return 'FC';
+			if (Highscore.tallies.good > 0) return 'GFC';
+			if (Highscore.tallies.sick > 0) return 'SFC';
+		} else {
+			if (comboBreaks < 10) return 'SDCB';
+			if (comboBreaks >= 10) return 'Clear';
+		}
+	}
+	
+	// gaaaah i hate using chatgpt but i got too lazy!!!!!!!!!
+	function formatNumber(num:Float):String {
+		// Convert the number to a string
+		var numStr = Std.string(num);
+		
+		// Split the string into integer and fractional parts
+		var parts = numStr.split(".");
+		
+		// Format the integer part
+		var intPart = parts[0];
+		var formattedIntPart = "";
+
+		while (intPart.length > 3) {
+			formattedIntPart = "," + intPart.substr(intPart.length - 3) + formattedIntPart;
+			intPart = intPart.substr(0, intPart.length - 3);
+		}
+		formattedIntPart = intPart + formattedIntPart;
+
+		// Add the fractional part back if it exists
+		if (parts.length > 1) {
+			return formattedIntPart + "." + parts[1];
+		}
+
+		return formattedIntPart;
+	}
+}
+
+// OK RAMBLE TIME
+// this wouldve been for the second half of 'Smallfry' aka the funny magical play song that was gonna be in the mod before hiatus and all that
+// pipin showed up and youd face both her and padudu at the same time wouldnt that be wacky
+class ThreeWayHealthbar extends SongEvent {
+	function new() {
+		super('ThreeWayHealthbar');
+	}
+
+	override function handleEvent(data) {
+		if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+		if (PlayState.instance.isMinimalMode) return;
+	}
+
+	override function getEventSchema() {
+		return [
+			{
+				name: "p3enabled",
+				title: "3rd icon enabled",
+				defaultValue: 0,
+				type: "enum",
+				keys: [
+					"Disabled" => 0,
+					"Enabled" => 1
+				]
+			},
+			{
+				name: "charInQuestion",
+				title: "Character",
+				defaultValue: "",
+				type: "string"
+			}
+		];
+	}
+
+	override function getTitle() {
+		return "Three-way healthbar";
+	}
+}
+
+// this was gonna be for the azuhorrors collab buuuuuuuuuut uhhhhhhhhhhhhhhhhh 
+// progress never really got done aside from the psych ui stuff and the first part of Knucklehead (Lunatic)
+class GetPsyched extends SongEvent {
+	function new() {
+		super('GetPsyched');
+	}
+
+	override function handleEvent(data) {
+		if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+		if (PlayState.instance.isMinimalMode) return;
+	}
+
+	override function getEventSchema() {
+		return [
+			{
+				name: "enablement",
+				title: "UI change",
+				defaultValue: 1,
+				type: "enum",
+				keys: [
+					"SBS UI" => 0,
+					"Psych UI" => 1,
+					"Switch between both" => 2
+				]
+			}
+		];
+	}
+
+	override function getTitle() {
+		return "Enable Psych/NightmareVision-like UI";
+	}
+}
